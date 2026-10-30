@@ -1,0 +1,3504 @@
+{
+  "schema": "ghs-annual-v1",
+  "year": 2026,
+  "timezone": "Asia/Jakarta",
+  "church": {
+    "name": "Gereja Hikmat Semesta",
+    "abbreviation": "GHS",
+    "name_en": "Church of Universal Wisdom",
+    "motto": "Besar perbuatan-perbuatan Tuhan, layak diselidiki oleh semua orang yang menyukainya.",
+    "motto_reference": "Mazmur 111:2",
+    "motto_note": "Redaksi menggunakan sebutan Tuhan."
+  },
+  "annual_theme": {
+    "title": "Bertumbuh dalam Hikmat",
+    "subtitle": "Mengenal Tuhan, Memahami Semesta, Merawat Kehidupan",
+    "verse_reference": "Mazmur 111:2",
+    "description": "Sepanjang 2026, jemaat belajar menghubungkan iman Kristen, pembacaan Kitab Suci yang bertanggung jawab, kejujuran intelektual, dan kasih yang nyata."
+  },
+  "pillars": [
+    {
+      "id": "penciptaan",
+      "title": "Hikmat Penciptaan",
+      "tagline": "Mengenal Tuhan melalui keagungan semesta",
+      "description": "Mengamati alam, asal-usul, keragaman, dan keteraturan kehidupan sebagai bahan perenungan iman.",
+      "verse_references": [
+        "Mazmur 19:2",
+        "Mazmur 111:2",
+        "Ayub 12:7–10",
+        "Mazmur 104:24",
+        "Roma 1:20",
+        "Kejadian 1:31"
+      ]
+    },
+    {
+      "id": "firman",
+      "title": "Hikmat Firman",
+      "tagline": "Memahami Kitab Suci dengan iman dan akal budi",
+      "description": "Mempelajari ajaran Kristus, teks Alkitab, konteks sejarah, dan penafsiran yang bertanggung jawab.",
+      "verse_references": [
+        "Lukas 10:27",
+        "Kisah Para Rasul 17:11",
+        "2 Timotius 3:16–17",
+        "Lukas 24:27",
+        "Matius 22:37–39",
+        "Yakobus 1:22"
+      ]
+    },
+    {
+      "id": "pengetahuan",
+      "title": "Hikmat Pengetahuan",
+      "tagline": "Mencari kebenaran melalui iman, nalar, dan penyelidikan",
+      "description": "Mendorong keterbukaan terhadap bukti, penalaran yang jujur, serta dialog ilmu dan filsafat.",
+      "verse_references": [
+        "Amsal 18:15",
+        "1 Tesalonika 5:21",
+        "Amsal 25:2",
+        "Amsal 1:5",
+        "Yakobus 1:5",
+        "Filipi 4:8"
+      ]
+    },
+    {
+      "id": "kehidupan",
+      "title": "Hikmat Kehidupan",
+      "tagline": "Mewujudkan kasih kepada sesama dan seluruh ciptaan",
+      "description": "Menghidupi ajaran Kristus melalui etika, pelayanan, keadilan, keluarga, dan kepedulian ekologis.",
+      "verse_references": [
+        "Matius 22:37–39",
+        "Mikha 6:8",
+        "Kejadian 2:15",
+        "Matius 25:35–40",
+        "Galatia 6:9–10",
+        "Yakobus 2:17"
+      ]
+    }
+  ],
+  "months": [
+    {
+      "number": 1,
+      "name": "Januari",
+      "theme": "Langkah Awal Mencari Hikmat",
+      "introduction": "Memulai tahun dengan rasa kagum, pembacaan Kitab Suci yang cermat, pertanyaan yang jujur, dan kasih nyata.",
+      "weeks": [
+        {
+          "sunday": "2026-01-04",
+          "week_in_month": 1,
+          "pillar_id": "penciptaan",
+          "pillar_title": "Hikmat Penciptaan",
+          "format": "khotbah",
+          "sermon_theme": "Keagungan Alam Semesta",
+          "sermon_focus": "Mengenal Tuhan melalui keagungan semesta",
+          "verse_references": [
+            "Mazmur 19:2",
+            "Mazmur 111:2",
+            "Ayub 12:7–10"
+          ],
+          "daily": [
+            {
+              "date": "2026-01-05",
+              "day": "Senin",
+              "theme": "Memandang langit dengan rasa kagum",
+              "verse_references": [
+                "Mazmur 19:2"
+              ]
+            },
+            {
+              "date": "2026-01-06",
+              "day": "Selasa",
+              "theme": "Keteraturan tidak menghapus pertanyaan",
+              "verse_references": [
+                "Mazmur 111:2"
+              ]
+            },
+            {
+              "date": "2026-01-07",
+              "day": "Rabu",
+              "theme": "Bumi sebagai rumah kehidupan",
+              "verse_references": [
+                "Ayub 12:7–10"
+              ]
+            },
+            {
+              "date": "2026-01-08",
+              "day": "Kamis",
+              "theme": "Kerendahan hati di hadapan kosmos",
+              "verse_references": [
+                "Mazmur 104:24"
+              ]
+            },
+            {
+              "date": "2026-01-09",
+              "day": "Jumat",
+              "theme": "Bersyukur atas hal yang belum kita pahami",
+              "verse_references": [
+                "Roma 1:20"
+              ]
+            },
+            {
+              "date": "2026-01-10",
+              "day": "Sabtu",
+              "theme": "Menjaga bumi sebagai wujud syukur",
+              "verse_references": [
+                "Kejadian 1:31"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-01-11",
+          "week_in_month": 2,
+          "pillar_id": "firman",
+          "pillar_title": "Hikmat Firman",
+          "format": "khotbah",
+          "sermon_theme": "Mengapa Kitab Suci Ditulis?",
+          "sermon_focus": "Memahami Kitab Suci dengan iman dan akal budi",
+          "verse_references": [
+            "Lukas 10:27",
+            "Kisah Para Rasul 17:11",
+            "2 Timotius 3:16–17"
+          ],
+          "daily": [
+            {
+              "date": "2026-01-12",
+              "day": "Senin",
+              "theme": "Mengenali ragam sastra Kitab Suci",
+              "verse_references": [
+                "Lukas 10:27"
+              ]
+            },
+            {
+              "date": "2026-01-13",
+              "day": "Selasa",
+              "theme": "Siapa penulis dan pembaca pertamanya?",
+              "verse_references": [
+                "Kisah Para Rasul 17:11"
+              ]
+            },
+            {
+              "date": "2026-01-14",
+              "day": "Rabu",
+              "theme": "Peran konteks sejarah",
+              "verse_references": [
+                "2 Timotius 3:16–17"
+              ]
+            },
+            {
+              "date": "2026-01-15",
+              "day": "Kamis",
+              "theme": "Membaca dengan teliti dan terbuka",
+              "verse_references": [
+                "Lukas 24:27"
+              ]
+            },
+            {
+              "date": "2026-01-16",
+              "day": "Jumat",
+              "theme": "Membedakan pesan dan tafsir",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-01-17",
+              "day": "Sabtu",
+              "theme": "Menghidupi pesan dalam tindakan",
+              "verse_references": [
+                "Yakobus 1:22"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-01-18",
+          "week_in_month": 3,
+          "pillar_id": "pengetahuan",
+          "pillar_title": "Hikmat Pengetahuan",
+          "format": "khotbah",
+          "sermon_theme": "Iman dan Keingintahuan",
+          "sermon_focus": "Mencari kebenaran melalui iman, nalar, dan penyelidikan",
+          "verse_references": [
+            "Amsal 18:15",
+            "1 Tesalonika 5:21",
+            "Amsal 25:2"
+          ],
+          "daily": [
+            {
+              "date": "2026-01-19",
+              "day": "Senin",
+              "theme": "Bertanya bukan tanda lemah iman",
+              "verse_references": [
+                "Amsal 18:15"
+              ]
+            },
+            {
+              "date": "2026-01-20",
+              "day": "Selasa",
+              "theme": "Mengamati sebelum menyimpulkan",
+              "verse_references": [
+                "1 Tesalonika 5:21"
+              ]
+            },
+            {
+              "date": "2026-01-21",
+              "day": "Rabu",
+              "theme": "Belajar membedakan fakta dan dugaan",
+              "verse_references": [
+                "Amsal 25:2"
+              ]
+            },
+            {
+              "date": "2026-01-22",
+              "day": "Kamis",
+              "theme": "Menimbang bukti dengan jujur",
+              "verse_references": [
+                "Amsal 1:5"
+              ]
+            },
+            {
+              "date": "2026-01-23",
+              "day": "Jumat",
+              "theme": "Bersedia memperbarui pemahaman",
+              "verse_references": [
+                "Yakobus 1:5"
+              ]
+            },
+            {
+              "date": "2026-01-24",
+              "day": "Sabtu",
+              "theme": "Membagikan pengetahuan dengan rendah hati",
+              "verse_references": [
+                "Filipi 4:8"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-01-25",
+          "week_in_month": 4,
+          "pillar_id": "kehidupan",
+          "pillar_title": "Hikmat Kehidupan",
+          "format": "khotbah",
+          "sermon_theme": "Kasih sebagai Dasar Kehidupan",
+          "sermon_focus": "Mewujudkan kasih kepada sesama dan seluruh ciptaan",
+          "verse_references": [
+            "Matius 22:37–39",
+            "Mikha 6:8",
+            "Kejadian 2:15"
+          ],
+          "daily": [
+            {
+              "date": "2026-01-26",
+              "day": "Senin",
+              "theme": "Melihat sesama sebagai pribadi bermartabat",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-01-27",
+              "day": "Selasa",
+              "theme": "Kasih dalam kata-kata",
+              "verse_references": [
+                "Mikha 6:8"
+              ]
+            },
+            {
+              "date": "2026-01-28",
+              "day": "Rabu",
+              "theme": "Kasih dalam keputusan sulit",
+              "verse_references": [
+                "Kejadian 2:15"
+              ]
+            },
+            {
+              "date": "2026-01-29",
+              "day": "Kamis",
+              "theme": "Menolong tanpa memilih-milih",
+              "verse_references": [
+                "Matius 25:35–40"
+              ]
+            },
+            {
+              "date": "2026-01-30",
+              "day": "Jumat",
+              "theme": "Merawat hubungan yang terluka",
+              "verse_references": [
+                "Galatia 6:9–10"
+              ]
+            },
+            {
+              "date": "2026-01-31",
+              "day": "Sabtu",
+              "theme": "Mengubah belas kasih menjadi tindakan",
+              "verse_references": [
+                "Yakobus 2:17"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Februari",
+      "theme": "Asal dan Makna Kehidupan",
+      "introduction": "Merefleksikan asal-usul, pemaknaan teks, pencarian kebenaran, dan relasi manusia dengan alam.",
+      "weeks": [
+        {
+          "sunday": "2026-02-01",
+          "week_in_month": 1,
+          "pillar_id": "penciptaan",
+          "pillar_title": "Hikmat Penciptaan",
+          "format": "khotbah",
+          "sermon_theme": "Asal-Usul dan Keragaman Kehidupan",
+          "sermon_focus": "Mengenal Tuhan melalui keagungan semesta",
+          "verse_references": [
+            "Mazmur 19:2",
+            "Mazmur 111:2",
+            "Ayub 12:7–10"
+          ],
+          "daily": [
+            {
+              "date": "2026-02-02",
+              "day": "Senin",
+              "theme": "Kehidupan sebagai objek rasa ingin tahu",
+              "verse_references": [
+                "Mazmur 19:2"
+              ]
+            },
+            {
+              "date": "2026-02-03",
+              "day": "Selasa",
+              "theme": "Keanekaragaman yang saling berhubungan",
+              "verse_references": [
+                "Mazmur 111:2"
+              ]
+            },
+            {
+              "date": "2026-02-04",
+              "day": "Rabu",
+              "theme": "Mengenal perubahan dalam sejarah alam",
+              "verse_references": [
+                "Ayub 12:7–10"
+              ]
+            },
+            {
+              "date": "2026-02-05",
+              "day": "Kamis",
+              "theme": "Membedakan penjelasan ilmiah dan iman",
+              "verse_references": [
+                "Mazmur 104:24"
+              ]
+            },
+            {
+              "date": "2026-02-06",
+              "day": "Jumat",
+              "theme": "Menghargai setiap bentuk kehidupan",
+              "verse_references": [
+                "Roma 1:20"
+              ]
+            },
+            {
+              "date": "2026-02-07",
+              "day": "Sabtu",
+              "theme": "Tanggung jawab di tengah keragaman",
+              "verse_references": [
+                "Kejadian 1:31"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-02-08",
+          "week_in_month": 2,
+          "pillar_id": "firman",
+          "pillar_title": "Hikmat Firman",
+          "format": "khotbah",
+          "sermon_theme": "Memahami Kitab Kejadian",
+          "sermon_focus": "Memahami Kitab Suci dengan iman dan akal budi",
+          "verse_references": [
+            "Lukas 10:27",
+            "Kisah Para Rasul 17:11",
+            "2 Timotius 3:16–17"
+          ],
+          "daily": [
+            {
+              "date": "2026-02-09",
+              "day": "Senin",
+              "theme": "Membaca kisah penciptaan dalam konteks",
+              "verse_references": [
+                "Lukas 10:27"
+              ]
+            },
+            {
+              "date": "2026-02-10",
+              "day": "Selasa",
+              "theme": "Bahasa simbolik dan pesan iman",
+              "verse_references": [
+                "Kisah Para Rasul 17:11"
+              ]
+            },
+            {
+              "date": "2026-02-11",
+              "day": "Rabu",
+              "theme": "Manusia dan tanggung jawabnya",
+              "verse_references": [
+                "2 Timotius 3:16–17"
+              ]
+            },
+            {
+              "date": "2026-02-12",
+              "day": "Kamis",
+              "theme": "Menghindari klaim di luar tujuan teks",
+              "verse_references": [
+                "Lukas 24:27"
+              ]
+            },
+            {
+              "date": "2026-02-13",
+              "day": "Jumat",
+              "theme": "Menemukan makna bagi masa kini",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-02-14",
+              "day": "Sabtu",
+              "theme": "Menjaga ciptaan dalam keseharian",
+              "verse_references": [
+                "Yakobus 1:22"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-02-15",
+          "week_in_month": 3,
+          "pillar_id": "pengetahuan",
+          "pillar_title": "Hikmat Pengetahuan",
+          "format": "khotbah",
+          "sermon_theme": "Apa Itu Kebenaran?",
+          "sermon_focus": "Mencari kebenaran melalui iman, nalar, dan penyelidikan",
+          "verse_references": [
+            "Amsal 18:15",
+            "1 Tesalonika 5:21",
+            "Amsal 25:2"
+          ],
+          "daily": [
+            {
+              "date": "2026-02-16",
+              "day": "Senin",
+              "theme": "Mengenali pertanyaan yang tepat",
+              "verse_references": [
+                "Amsal 18:15"
+              ]
+            },
+            {
+              "date": "2026-02-17",
+              "day": "Selasa",
+              "theme": "Kejujuran terhadap data",
+              "verse_references": [
+                "1 Tesalonika 5:21"
+              ]
+            },
+            {
+              "date": "2026-02-18",
+              "day": "Rabu",
+              "theme": "Perbedaan fakta dan penafsiran",
+              "verse_references": [
+                "Amsal 25:2"
+              ]
+            },
+            {
+              "date": "2026-02-19",
+              "day": "Kamis",
+              "theme": "Kapan keyakinan perlu ditinjau?",
+              "verse_references": [
+                "Amsal 1:5"
+              ]
+            },
+            {
+              "date": "2026-02-20",
+              "day": "Jumat",
+              "theme": "Dialog tanpa merendahkan",
+              "verse_references": [
+                "Yakobus 1:5"
+              ]
+            },
+            {
+              "date": "2026-02-21",
+              "day": "Sabtu",
+              "theme": "Mengasihi kebenaran dalam praktik",
+              "verse_references": [
+                "Filipi 4:8"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-02-22",
+          "week_in_month": 4,
+          "pillar_id": "kehidupan",
+          "pillar_title": "Hikmat Kehidupan",
+          "format": "khotbah",
+          "sermon_theme": "Manusia dan Alam",
+          "sermon_focus": "Mewujudkan kasih kepada sesama dan seluruh ciptaan",
+          "verse_references": [
+            "Matius 22:37–39",
+            "Mikha 6:8",
+            "Kejadian 2:15"
+          ],
+          "daily": [
+            {
+              "date": "2026-02-23",
+              "day": "Senin",
+              "theme": "Kita hidup dalam jejaring alam",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-02-24",
+              "day": "Selasa",
+              "theme": "Dampak pilihan terhadap ekosistem",
+              "verse_references": [
+                "Mikha 6:8"
+              ]
+            },
+            {
+              "date": "2026-02-25",
+              "day": "Rabu",
+              "theme": "Mengelola sumber daya dengan bijak",
+              "verse_references": [
+                "Kejadian 2:15"
+              ]
+            },
+            {
+              "date": "2026-02-26",
+              "day": "Kamis",
+              "theme": "Menghormati makhluk hidup lain",
+              "verse_references": [
+                "Matius 25:35–40"
+              ]
+            },
+            {
+              "date": "2026-02-27",
+              "day": "Jumat",
+              "theme": "Tindakan kecil untuk lingkungan",
+              "verse_references": [
+                "Galatia 6:9–10"
+              ]
+            },
+            {
+              "date": "2026-02-28",
+              "day": "Sabtu",
+              "theme": "Menjadi penjaga, bukan perusak",
+              "verse_references": [
+                "Yakobus 2:17"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Maret",
+      "theme": "Mengenal Kehidupan dengan Cermat",
+      "introduction": "Menghubungkan perhatian pada kehidupan dengan pembacaan yang teliti serta tanggung jawab moral.",
+      "weeks": [
+        {
+          "sunday": "2026-03-01",
+          "week_in_month": 1,
+          "pillar_id": "penciptaan",
+          "pillar_title": "Hikmat Penciptaan",
+          "format": "khotbah",
+          "sermon_theme": "Keajaiban Sel dan Kehidupan",
+          "sermon_focus": "Mengenal Tuhan melalui keagungan semesta",
+          "verse_references": [
+            "Mazmur 19:2",
+            "Mazmur 111:2",
+            "Ayub 12:7–10"
+          ],
+          "daily": [
+            {
+              "date": "2026-03-02",
+              "day": "Senin",
+              "theme": "Sel sebagai dasar kehidupan",
+              "verse_references": [
+                "Mazmur 19:2"
+              ]
+            },
+            {
+              "date": "2026-03-03",
+              "day": "Selasa",
+              "theme": "Kesamaan di tengah keragaman",
+              "verse_references": [
+                "Mazmur 111:2"
+              ]
+            },
+            {
+              "date": "2026-03-04",
+              "day": "Rabu",
+              "theme": "Batas antara hidup dan tidak hidup",
+              "verse_references": [
+                "Ayub 12:7–10"
+              ]
+            },
+            {
+              "date": "2026-03-05",
+              "day": "Kamis",
+              "theme": "Mengamati tanpa tergesa menafsirkan",
+              "verse_references": [
+                "Mazmur 104:24"
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "day": "Jumat",
+              "theme": "Menjaga kesehatan sebagai tanggung jawab",
+              "verse_references": [
+                "Roma 1:20"
+              ]
+            },
+            {
+              "date": "2026-03-07",
+              "day": "Sabtu",
+              "theme": "Menghargai kehidupan yang rapuh",
+              "verse_references": [
+                "Kejadian 1:31"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-03-08",
+          "week_in_month": 2,
+          "pillar_id": "firman",
+          "pillar_title": "Hikmat Firman",
+          "format": "khotbah",
+          "sermon_theme": "Bahasa dan Terjemahan Alkitab",
+          "sermon_focus": "Memahami Kitab Suci dengan iman dan akal budi",
+          "verse_references": [
+            "Lukas 10:27",
+            "Kisah Para Rasul 17:11",
+            "2 Timotius 3:16–17"
+          ],
+          "daily": [
+            {
+              "date": "2026-03-09",
+              "day": "Senin",
+              "theme": "Mengapa terjemahan bisa berbeda?",
+              "verse_references": [
+                "Lukas 10:27"
+              ]
+            },
+            {
+              "date": "2026-03-10",
+              "day": "Selasa",
+              "theme": "Makna kata bergantung pada konteks",
+              "verse_references": [
+                "Kisah Para Rasul 17:11"
+              ]
+            },
+            {
+              "date": "2026-03-11",
+              "day": "Rabu",
+              "theme": "Mengenal bahasa sumber",
+              "verse_references": [
+                "2 Timotius 3:16–17"
+              ]
+            },
+            {
+              "date": "2026-03-12",
+              "day": "Kamis",
+              "theme": "Tidak membangun ajaran dari satu kata",
+              "verse_references": [
+                "Lukas 24:27"
+              ]
+            },
+            {
+              "date": "2026-03-13",
+              "day": "Jumat",
+              "theme": "Belajar dari beberapa terjemahan",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-03-14",
+              "day": "Sabtu",
+              "theme": "Membaca dengan rendah hati",
+              "verse_references": [
+                "Yakobus 1:22"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-03-15",
+          "week_in_month": 3,
+          "pillar_id": "pengetahuan",
+          "pillar_title": "Hikmat Pengetahuan",
+          "format": "khotbah",
+          "sermon_theme": "Metode Ilmiah dan Iman",
+          "sermon_focus": "Mencari kebenaran melalui iman, nalar, dan penyelidikan",
+          "verse_references": [
+            "Amsal 18:15",
+            "1 Tesalonika 5:21",
+            "Amsal 25:2"
+          ],
+          "daily": [
+            {
+              "date": "2026-03-16",
+              "day": "Senin",
+              "theme": "Pertanyaan dan hipotesis",
+              "verse_references": [
+                "Amsal 18:15"
+              ]
+            },
+            {
+              "date": "2026-03-17",
+              "day": "Selasa",
+              "theme": "Pengamatan yang dapat diperiksa",
+              "verse_references": [
+                "1 Tesalonika 5:21"
+              ]
+            },
+            {
+              "date": "2026-03-18",
+              "day": "Rabu",
+              "theme": "Peran ketidakpastian",
+              "verse_references": [
+                "Amsal 25:2"
+              ]
+            },
+            {
+              "date": "2026-03-19",
+              "day": "Kamis",
+              "theme": "Mengoreksi kesalahan sebagai kebajikan",
+              "verse_references": [
+                "Amsal 1:5"
+              ]
+            },
+            {
+              "date": "2026-03-20",
+              "day": "Jumat",
+              "theme": "Ruang ilmu dan ruang teologi",
+              "verse_references": [
+                "Yakobus 1:5"
+              ]
+            },
+            {
+              "date": "2026-03-21",
+              "day": "Sabtu",
+              "theme": "Menggunakan nalar untuk melayani",
+              "verse_references": [
+                "Filipi 4:8"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-03-22",
+          "week_in_month": 4,
+          "pillar_id": "kehidupan",
+          "pillar_title": "Hikmat Kehidupan",
+          "format": "khotbah",
+          "sermon_theme": "Martabat Setiap Manusia",
+          "sermon_focus": "Mewujudkan kasih kepada sesama dan seluruh ciptaan",
+          "verse_references": [
+            "Matius 22:37–39",
+            "Mikha 6:8",
+            "Kejadian 2:15"
+          ],
+          "daily": [
+            {
+              "date": "2026-03-23",
+              "day": "Senin",
+              "theme": "Setiap pribadi layak dihormati",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-03-24",
+              "day": "Selasa",
+              "theme": "Mendengar pengalaman yang berbeda",
+              "verse_references": [
+                "Mikha 6:8"
+              ]
+            },
+            {
+              "date": "2026-03-25",
+              "day": "Rabu",
+              "theme": "Bahaya prasangka dan stigma",
+              "verse_references": [
+                "Kejadian 2:15"
+              ]
+            },
+            {
+              "date": "2026-03-26",
+              "day": "Kamis",
+              "theme": "Menghormati mereka yang rentan",
+              "verse_references": [
+                "Matius 25:35–40"
+              ]
+            },
+            {
+              "date": "2026-03-27",
+              "day": "Jumat",
+              "theme": "Mewujudkan keadilan dalam tindakan",
+              "verse_references": [
+                "Galatia 6:9–10"
+              ]
+            },
+            {
+              "date": "2026-03-28",
+              "day": "Sabtu",
+              "theme": "Membangun komunitas yang aman",
+              "verse_references": [
+                "Yakobus 2:17"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-03-29",
+          "week_in_month": 5,
+          "pillar_id": "lintas_pilar",
+          "pillar_title": "Ibadah Hikmat Bersama",
+          "format": "dialog-refleksi",
+          "sermon_theme": "Forum Hikmat: Belajar Mendengar dan Bertanya",
+          "sermon_focus": "Dialog, doa, refleksi, dan pelayanan bersama yang merangkum empat pilar.",
+          "verse_references": [
+            "Mazmur 111:2",
+            "1 Tesalonika 5:21",
+            "Lukas 10:27"
+          ],
+          "daily": [
+            {
+              "date": "2026-03-30",
+              "day": "Senin",
+              "theme": "Mendengarkan sebelum menanggapi",
+              "verse_references": [
+                "Mazmur 111:2"
+              ]
+            },
+            {
+              "date": "2026-03-31",
+              "day": "Selasa",
+              "theme": "Mengajukan pertanyaan yang jujur",
+              "verse_references": [
+                "Amsal 18:15"
+              ]
+            },
+            {
+              "date": "2026-04-01",
+              "day": "Rabu",
+              "theme": "Membedakan pandangan dan fakta",
+              "verse_references": [
+                "Lukas 10:27"
+              ]
+            },
+            {
+              "date": "2026-04-02",
+              "day": "Kamis",
+              "theme": "Mengakui hal yang belum diketahui",
+              "verse_references": [
+                "1 Tesalonika 5:21"
+              ]
+            },
+            {
+              "date": "2026-04-03",
+              "day": "Jumat",
+              "theme": "Merangkum pelajaran bersama",
+              "verse_references": [
+                "Mikha 6:8"
+              ]
+            },
+            {
+              "date": "2026-04-04",
+              "day": "Sabtu",
+              "theme": "Menyusun langkah pelayanan",
+              "verse_references": [
+                "Yakobus 1:22"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "April",
+      "theme": "Membaca Kehidupan dan Pengharapan",
+      "introduction": "Menimbang sejarah bumi, pesan Yesus, penalaran, dan praktik pemulihan dalam kehidupan.",
+      "weeks": [
+        {
+          "sunday": "2026-04-05",
+          "week_in_month": 1,
+          "pillar_id": "penciptaan",
+          "pillar_title": "Hikmat Penciptaan",
+          "format": "khotbah",
+          "sermon_theme": "Bumi dan Sejarahnya",
+          "sermon_focus": "Mengenal Tuhan melalui keagungan semesta",
+          "verse_references": [
+            "Mazmur 19:2",
+            "Mazmur 111:2",
+            "Ayub 12:7–10"
+          ],
+          "daily": [
+            {
+              "date": "2026-04-06",
+              "day": "Senin",
+              "theme": "Bumi berubah sepanjang waktu",
+              "verse_references": [
+                "Mazmur 19:2"
+              ]
+            },
+            {
+              "date": "2026-04-07",
+              "day": "Selasa",
+              "theme": "Jejak masa lalu di alam",
+              "verse_references": [
+                "Mazmur 111:2"
+              ]
+            },
+            {
+              "date": "2026-04-08",
+              "day": "Rabu",
+              "theme": "Belajar dari penelitian bumi",
+              "verse_references": [
+                "Ayub 12:7–10"
+              ]
+            },
+            {
+              "date": "2026-04-09",
+              "day": "Kamis",
+              "theme": "Kerendahan hati terhadap usia dunia",
+              "verse_references": [
+                "Mazmur 104:24"
+              ]
+            },
+            {
+              "date": "2026-04-10",
+              "day": "Jumat",
+              "theme": "Menghargai bumi yang dinamis",
+              "verse_references": [
+                "Roma 1:20"
+              ]
+            },
+            {
+              "date": "2026-04-11",
+              "day": "Sabtu",
+              "theme": "Merawat tempat kita tinggal",
+              "verse_references": [
+                "Kejadian 1:31"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-04-12",
+          "week_in_month": 2,
+          "pillar_id": "firman",
+          "pillar_title": "Hikmat Firman",
+          "format": "khotbah",
+          "sermon_theme": "Kehidupan dan Ajaran Yesus",
+          "sermon_focus": "Memahami Kitab Suci dengan iman dan akal budi",
+          "verse_references": [
+            "Lukas 10:27",
+            "Kisah Para Rasul 17:11",
+            "2 Timotius 3:16–17"
+          ],
+          "daily": [
+            {
+              "date": "2026-04-13",
+              "day": "Senin",
+              "theme": "Mengenali konteks pelayanan Yesus",
+              "verse_references": [
+                "Lukas 10:27"
+              ]
+            },
+            {
+              "date": "2026-04-14",
+              "day": "Selasa",
+              "theme": "Mengutamakan kasih dan keadilan",
+              "verse_references": [
+                "Kisah Para Rasul 17:11"
+              ]
+            },
+            {
+              "date": "2026-04-15",
+              "day": "Rabu",
+              "theme": "Membaca perumpamaan secara utuh",
+              "verse_references": [
+                "2 Timotius 3:16–17"
+              ]
+            },
+            {
+              "date": "2026-04-16",
+              "day": "Kamis",
+              "theme": "Meneladani sikap terhadap yang tersisih",
+              "verse_references": [
+                "Lukas 24:27"
+              ]
+            },
+            {
+              "date": "2026-04-17",
+              "day": "Jumat",
+              "theme": "Menghubungkan ajaran dengan kenyataan",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-04-18",
+              "day": "Sabtu",
+              "theme": "Melakukan satu tindakan kasih",
+              "verse_references": [
+                "Yakobus 1:22"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-04-19",
+          "week_in_month": 3,
+          "pillar_id": "pengetahuan",
+          "pillar_title": "Hikmat Pengetahuan",
+          "format": "khotbah",
+          "sermon_theme": "Nalar, Bukti, dan Keyakinan",
+          "sermon_focus": "Mencari kebenaran melalui iman, nalar, dan penyelidikan",
+          "verse_references": [
+            "Amsal 18:15",
+            "1 Tesalonika 5:21",
+            "Amsal 25:2"
+          ],
+          "daily": [
+            {
+              "date": "2026-04-20",
+              "day": "Senin",
+              "theme": "Apa yang kita sebut bukti?",
+              "verse_references": [
+                "Amsal 18:15"
+              ]
+            },
+            {
+              "date": "2026-04-21",
+              "day": "Selasa",
+              "theme": "Periksa sumber dan konteks",
+              "verse_references": [
+                "1 Tesalonika 5:21"
+              ]
+            },
+            {
+              "date": "2026-04-22",
+              "day": "Rabu",
+              "theme": "Mengenali bias diri sendiri",
+              "verse_references": [
+                "Amsal 25:2"
+              ]
+            },
+            {
+              "date": "2026-04-23",
+              "day": "Kamis",
+              "theme": "Belajar berkata saya belum tahu",
+              "verse_references": [
+                "Amsal 1:5"
+              ]
+            },
+            {
+              "date": "2026-04-24",
+              "day": "Jumat",
+              "theme": "Berdialog tanpa rasa takut",
+              "verse_references": [
+                "Yakobus 1:5"
+              ]
+            },
+            {
+              "date": "2026-04-25",
+              "day": "Sabtu",
+              "theme": "Keputusan bijak berdasarkan alasan",
+              "verse_references": [
+                "Filipi 4:8"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-04-26",
+          "week_in_month": 4,
+          "pillar_id": "kehidupan",
+          "pillar_title": "Hikmat Kehidupan",
+          "format": "khotbah",
+          "sermon_theme": "Pengampunan dan Pemulihan",
+          "sermon_focus": "Mewujudkan kasih kepada sesama dan seluruh ciptaan",
+          "verse_references": [
+            "Matius 22:37–39",
+            "Mikha 6:8",
+            "Kejadian 2:15"
+          ],
+          "daily": [
+            {
+              "date": "2026-04-27",
+              "day": "Senin",
+              "theme": "Mengakui luka dan kesalahan",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-04-28",
+              "day": "Selasa",
+              "theme": "Pengampunan bukan pembiaran",
+              "verse_references": [
+                "Mikha 6:8"
+              ]
+            },
+            {
+              "date": "2026-04-29",
+              "day": "Rabu",
+              "theme": "Menentukan batas yang sehat",
+              "verse_references": [
+                "Kejadian 2:15"
+              ]
+            },
+            {
+              "date": "2026-04-30",
+              "day": "Kamis",
+              "theme": "Mendamaikan tanpa memaksa",
+              "verse_references": [
+                "Matius 25:35–40"
+              ]
+            },
+            {
+              "date": "2026-05-01",
+              "day": "Jumat",
+              "theme": "Belajar memperbaiki relasi",
+              "verse_references": [
+                "Galatia 6:9–10"
+              ]
+            },
+            {
+              "date": "2026-05-02",
+              "day": "Sabtu",
+              "theme": "Menumbuhkan harapan baru",
+              "verse_references": [
+                "Yakobus 2:17"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Mei",
+      "theme": "Melihat Lebih Luas, Hidup Lebih Bijak",
+      "introduction": "Mendalami kosmos, pengajaran Yesus, batas-batas pengetahuan, dan keluarga.",
+      "weeks": [
+        {
+          "sunday": "2026-05-03",
+          "week_in_month": 1,
+          "pillar_id": "penciptaan",
+          "pillar_title": "Hikmat Penciptaan",
+          "format": "khotbah",
+          "sermon_theme": "Langit, Bintang, dan Galaksi",
+          "sermon_focus": "Mengenal Tuhan melalui keagungan semesta",
+          "verse_references": [
+            "Mazmur 19:2",
+            "Mazmur 111:2",
+            "Ayub 12:7–10"
+          ],
+          "daily": [
+            {
+              "date": "2026-05-04",
+              "day": "Senin",
+              "theme": "Mengamati malam dengan takjub",
+              "verse_references": [
+                "Mazmur 19:2"
+              ]
+            },
+            {
+              "date": "2026-05-05",
+              "day": "Selasa",
+              "theme": "Ukuran semesta dan keterbatasan kita",
+              "verse_references": [
+                "Mazmur 111:2"
+              ]
+            },
+            {
+              "date": "2026-05-06",
+              "day": "Rabu",
+              "theme": "Terang dan waktu dalam kosmos",
+              "verse_references": [
+                "Ayub 12:7–10"
+              ]
+            },
+            {
+              "date": "2026-05-07",
+              "day": "Kamis",
+              "theme": "Menghindari jawaban tergesa-gesa",
+              "verse_references": [
+                "Mazmur 104:24"
+              ]
+            },
+            {
+              "date": "2026-05-08",
+              "day": "Jumat",
+              "theme": "Syukur atas kehidupan di bumi",
+              "verse_references": [
+                "Roma 1:20"
+              ]
+            },
+            {
+              "date": "2026-05-09",
+              "day": "Sabtu",
+              "theme": "Menjaga keingintahuan yang sehat",
+              "verse_references": [
+                "Kejadian 1:31"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-05-10",
+          "week_in_month": 2,
+          "pillar_id": "firman",
+          "pillar_title": "Hikmat Firman",
+          "format": "khotbah",
+          "sermon_theme": "Perumpamaan Yesus",
+          "sermon_focus": "Memahami Kitab Suci dengan iman dan akal budi",
+          "verse_references": [
+            "Lukas 10:27",
+            "Kisah Para Rasul 17:11",
+            "2 Timotius 3:16–17"
+          ],
+          "daily": [
+            {
+              "date": "2026-05-11",
+              "day": "Senin",
+              "theme": "Mengapa Yesus memakai perumpamaan?",
+              "verse_references": [
+                "Lukas 10:27"
+              ]
+            },
+            {
+              "date": "2026-05-12",
+              "day": "Selasa",
+              "theme": "Tokoh dan latar sebuah kisah",
+              "verse_references": [
+                "Kisah Para Rasul 17:11"
+              ]
+            },
+            {
+              "date": "2026-05-13",
+              "day": "Rabu",
+              "theme": "Menemukan pesan utama",
+              "verse_references": [
+                "2 Timotius 3:16–17"
+              ]
+            },
+            {
+              "date": "2026-05-14",
+              "day": "Kamis",
+              "theme": "Bahaya menarik makna berlebihan",
+              "verse_references": [
+                "Lukas 24:27"
+              ]
+            },
+            {
+              "date": "2026-05-15",
+              "day": "Jumat",
+              "theme": "Menerapkan pesan dalam relasi",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-05-16",
+              "day": "Sabtu",
+              "theme": "Menceritakan hikmat lewat kehidupan",
+              "verse_references": [
+                "Yakobus 1:22"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-05-17",
+          "week_in_month": 3,
+          "pillar_id": "pengetahuan",
+          "pillar_title": "Hikmat Pengetahuan",
+          "format": "khotbah",
+          "sermon_theme": "Sains dan Batas Pengetahuan",
+          "sermon_focus": "Mencari kebenaran melalui iman, nalar, dan penyelidikan",
+          "verse_references": [
+            "Amsal 18:15",
+            "1 Tesalonika 5:21",
+            "Amsal 25:2"
+          ],
+          "daily": [
+            {
+              "date": "2026-05-18",
+              "day": "Senin",
+              "theme": "Apa yang dapat diuji?",
+              "verse_references": [
+                "Amsal 18:15"
+              ]
+            },
+            {
+              "date": "2026-05-19",
+              "day": "Selasa",
+              "theme": "Batas pengamatan manusia",
+              "verse_references": [
+                "1 Tesalonika 5:21"
+              ]
+            },
+            {
+              "date": "2026-05-20",
+              "day": "Rabu",
+              "theme": "Perbedaan belum tahu dan tidak mungkin",
+              "verse_references": [
+                "Amsal 25:2"
+              ]
+            },
+            {
+              "date": "2026-05-21",
+              "day": "Kamis",
+              "theme": "Kepastian dan probabilitas",
+              "verse_references": [
+                "Amsal 1:5"
+              ]
+            },
+            {
+              "date": "2026-05-22",
+              "day": "Jumat",
+              "theme": "Rendah hati terhadap penemuan baru",
+              "verse_references": [
+                "Yakobus 1:5"
+              ]
+            },
+            {
+              "date": "2026-05-23",
+              "day": "Sabtu",
+              "theme": "Menggunakan ilmu secara bertanggung jawab",
+              "verse_references": [
+                "Filipi 4:8"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-05-24",
+          "week_in_month": 4,
+          "pillar_id": "kehidupan",
+          "pillar_title": "Hikmat Kehidupan",
+          "format": "khotbah",
+          "sermon_theme": "Keluarga dan Pengasuhan",
+          "sermon_focus": "Mewujudkan kasih kepada sesama dan seluruh ciptaan",
+          "verse_references": [
+            "Matius 22:37–39",
+            "Mikha 6:8",
+            "Kejadian 2:15"
+          ],
+          "daily": [
+            {
+              "date": "2026-05-25",
+              "day": "Senin",
+              "theme": "Kehadiran sebagai bentuk kasih",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-05-26",
+              "day": "Selasa",
+              "theme": "Mendengar anggota keluarga",
+              "verse_references": [
+                "Mikha 6:8"
+              ]
+            },
+            {
+              "date": "2026-05-27",
+              "day": "Rabu",
+              "theme": "Mendidik tanpa merendahkan",
+              "verse_references": [
+                "Kejadian 2:15"
+              ]
+            },
+            {
+              "date": "2026-05-28",
+              "day": "Kamis",
+              "theme": "Kesabaran dalam konflik",
+              "verse_references": [
+                "Matius 25:35–40"
+              ]
+            },
+            {
+              "date": "2026-05-29",
+              "day": "Jumat",
+              "theme": "Menumbuhkan rasa aman di rumah",
+              "verse_references": [
+                "Galatia 6:9–10"
+              ]
+            },
+            {
+              "date": "2026-05-30",
+              "day": "Sabtu",
+              "theme": "Merayakan kemajuan kecil bersama",
+              "verse_references": [
+                "Yakobus 2:17"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-05-31",
+          "week_in_month": 5,
+          "pillar_id": "lintas_pilar",
+          "pillar_title": "Ibadah Hikmat Bersama",
+          "format": "dialog-refleksi",
+          "sermon_theme": "Forum Hikmat: Keluarga, Ilmu, dan Iman",
+          "sermon_focus": "Dialog, doa, refleksi, dan pelayanan bersama yang merangkum empat pilar.",
+          "verse_references": [
+            "Mazmur 111:2",
+            "1 Tesalonika 5:21",
+            "Lukas 10:27"
+          ],
+          "daily": [
+            {
+              "date": "2026-06-01",
+              "day": "Senin",
+              "theme": "Pertanyaan anak layak didengar",
+              "verse_references": [
+                "Mazmur 111:2"
+              ]
+            },
+            {
+              "date": "2026-06-02",
+              "day": "Selasa",
+              "theme": "Bicara jujur tentang yang belum diketahui",
+              "verse_references": [
+                "Amsal 18:15"
+              ]
+            },
+            {
+              "date": "2026-06-03",
+              "day": "Rabu",
+              "theme": "Membangun rumah yang terbuka",
+              "verse_references": [
+                "Lukas 10:27"
+              ]
+            },
+            {
+              "date": "2026-06-04",
+              "day": "Kamis",
+              "theme": "Menimbang nasihat dan bukti",
+              "verse_references": [
+                "1 Tesalonika 5:21"
+              ]
+            },
+            {
+              "date": "2026-06-05",
+              "day": "Jumat",
+              "theme": "Belajar bersama lintas generasi",
+              "verse_references": [
+                "Mikha 6:8"
+              ]
+            },
+            {
+              "date": "2026-06-06",
+              "day": "Sabtu",
+              "theme": "Satu kebiasaan baik untuk keluarga",
+              "verse_references": [
+                "Yakobus 1:22"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Juni",
+      "theme": "Hikmat dalam Keanekaragaman",
+      "introduction": "Memahami hubungan antarorganisme, sejarah teks, perilaku manusia, dan tanggung jawab ekologis.",
+      "weeks": [
+        {
+          "sunday": "2026-06-07",
+          "week_in_month": 1,
+          "pillar_id": "penciptaan",
+          "pillar_title": "Hikmat Penciptaan",
+          "format": "khotbah",
+          "sermon_theme": "Keanekaragaman Makhluk Hidup",
+          "sermon_focus": "Mengenal Tuhan melalui keagungan semesta",
+          "verse_references": [
+            "Mazmur 19:2",
+            "Mazmur 111:2",
+            "Ayub 12:7–10"
+          ],
+          "daily": [
+            {
+              "date": "2026-06-08",
+              "day": "Senin",
+              "theme": "Keragaman di sekitar rumah",
+              "verse_references": [
+                "Mazmur 19:2"
+              ]
+            },
+            {
+              "date": "2026-06-09",
+              "day": "Selasa",
+              "theme": "Setiap organisme punya peran",
+              "verse_references": [
+                "Mazmur 111:2"
+              ]
+            },
+            {
+              "date": "2026-06-10",
+              "day": "Rabu",
+              "theme": "Hubungan antarmakhluk hidup",
+              "verse_references": [
+                "Ayub 12:7–10"
+              ]
+            },
+            {
+              "date": "2026-06-11",
+              "day": "Kamis",
+              "theme": "Menjaga habitat yang rentan",
+              "verse_references": [
+                "Mazmur 104:24"
+              ]
+            },
+            {
+              "date": "2026-06-12",
+              "day": "Jumat",
+              "theme": "Belajar dari alam tanpa romantisasi",
+              "verse_references": [
+                "Roma 1:20"
+              ]
+            },
+            {
+              "date": "2026-06-13",
+              "day": "Sabtu",
+              "theme": "Tindakan nyata untuk biodiversitas",
+              "verse_references": [
+                "Kejadian 1:31"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-06-14",
+          "week_in_month": 2,
+          "pillar_id": "firman",
+          "pillar_title": "Hikmat Firman",
+          "format": "khotbah",
+          "sermon_theme": "Konteks Sejarah Alkitab",
+          "sermon_focus": "Memahami Kitab Suci dengan iman dan akal budi",
+          "verse_references": [
+            "Lukas 10:27",
+            "Kisah Para Rasul 17:11",
+            "2 Timotius 3:16–17"
+          ],
+          "daily": [
+            {
+              "date": "2026-06-15",
+              "day": "Senin",
+              "theme": "Dunia sosial para penulis",
+              "verse_references": [
+                "Lukas 10:27"
+              ]
+            },
+            {
+              "date": "2026-06-16",
+              "day": "Selasa",
+              "theme": "Kebiasaan budaya dan makna",
+              "verse_references": [
+                "Kisah Para Rasul 17:11"
+              ]
+            },
+            {
+              "date": "2026-06-17",
+              "day": "Rabu",
+              "theme": "Membaca teks tanpa anakronisme",
+              "verse_references": [
+                "2 Timotius 3:16–17"
+              ]
+            },
+            {
+              "date": "2026-06-18",
+              "day": "Kamis",
+              "theme": "Mengenal jenis tulisan kuno",
+              "verse_references": [
+                "Lukas 24:27"
+              ]
+            },
+            {
+              "date": "2026-06-19",
+              "day": "Jumat",
+              "theme": "Bertanya kepada konteks lebih dahulu",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-06-20",
+              "day": "Sabtu",
+              "theme": "Menafsirkan untuk kehidupan kini",
+              "verse_references": [
+                "Yakobus 1:22"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-06-21",
+          "week_in_month": 3,
+          "pillar_id": "pengetahuan",
+          "pillar_title": "Hikmat Pengetahuan",
+          "format": "khotbah",
+          "sermon_theme": "Psikologi dan Perilaku Manusia",
+          "sermon_focus": "Mencari kebenaran melalui iman, nalar, dan penyelidikan",
+          "verse_references": [
+            "Amsal 18:15",
+            "1 Tesalonika 5:21",
+            "Amsal 25:2"
+          ],
+          "daily": [
+            {
+              "date": "2026-06-22",
+              "day": "Senin",
+              "theme": "Mengapa manusia bertindak?",
+              "verse_references": [
+                "Amsal 18:15"
+              ]
+            },
+            {
+              "date": "2026-06-23",
+              "day": "Selasa",
+              "theme": "Emosi dan keputusan",
+              "verse_references": [
+                "1 Tesalonika 5:21"
+              ]
+            },
+            {
+              "date": "2026-06-24",
+              "day": "Rabu",
+              "theme": "Belajar mengenali bias",
+              "verse_references": [
+                "Amsal 25:2"
+              ]
+            },
+            {
+              "date": "2026-06-25",
+              "day": "Kamis",
+              "theme": "Mendengarkan tanpa menghakimi",
+              "verse_references": [
+                "Amsal 1:5"
+              ]
+            },
+            {
+              "date": "2026-06-26",
+              "day": "Jumat",
+              "theme": "Membangun kebiasaan sehat",
+              "verse_references": [
+                "Yakobus 1:5"
+              ]
+            },
+            {
+              "date": "2026-06-27",
+              "day": "Sabtu",
+              "theme": "Belas kasih dalam memahami sesama",
+              "verse_references": [
+                "Filipi 4:8"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-06-28",
+          "week_in_month": 4,
+          "pillar_id": "kehidupan",
+          "pillar_title": "Hikmat Kehidupan",
+          "format": "khotbah",
+          "sermon_theme": "Merawat Lingkungan",
+          "sermon_focus": "Mewujudkan kasih kepada sesama dan seluruh ciptaan",
+          "verse_references": [
+            "Matius 22:37–39",
+            "Mikha 6:8",
+            "Kejadian 2:15"
+          ],
+          "daily": [
+            {
+              "date": "2026-06-29",
+              "day": "Senin",
+              "theme": "Melihat masalah lingkungan setempat",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-06-30",
+              "day": "Selasa",
+              "theme": "Mengurangi limbah harian",
+              "verse_references": [
+                "Mikha 6:8"
+              ]
+            },
+            {
+              "date": "2026-07-01",
+              "day": "Rabu",
+              "theme": "Menghargai sumber air",
+              "verse_references": [
+                "Kejadian 2:15"
+              ]
+            },
+            {
+              "date": "2026-07-02",
+              "day": "Kamis",
+              "theme": "Berbagi tanggung jawab bersama",
+              "verse_references": [
+                "Matius 25:35–40"
+              ]
+            },
+            {
+              "date": "2026-07-03",
+              "day": "Jumat",
+              "theme": "Bertindak berdasarkan pengetahuan",
+              "verse_references": [
+                "Galatia 6:9–10"
+              ]
+            },
+            {
+              "date": "2026-07-04",
+              "day": "Sabtu",
+              "theme": "Mengevaluasi dampak perubahan",
+              "verse_references": [
+                "Yakobus 2:17"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Juli",
+      "theme": "Hidup di Tengah Jejaring Semesta",
+      "introduction": "Melihat ekosistem, sastra hikmat, sejarah ilmu, serta kepedulian terhadap kelompok rentan.",
+      "weeks": [
+        {
+          "sunday": "2026-07-05",
+          "week_in_month": 1,
+          "pillar_id": "penciptaan",
+          "pillar_title": "Hikmat Penciptaan",
+          "format": "khotbah",
+          "sermon_theme": "Kehidupan dalam Ekosistem",
+          "sermon_focus": "Mengenal Tuhan melalui keagungan semesta",
+          "verse_references": [
+            "Mazmur 19:2",
+            "Mazmur 111:2",
+            "Ayub 12:7–10"
+          ],
+          "daily": [
+            {
+              "date": "2026-07-06",
+              "day": "Senin",
+              "theme": "Hubungan organisme dan habitat",
+              "verse_references": [
+                "Mazmur 19:2"
+              ]
+            },
+            {
+              "date": "2026-07-07",
+              "day": "Selasa",
+              "theme": "Rantai makanan dan keseimbangan",
+              "verse_references": [
+                "Mazmur 111:2"
+              ]
+            },
+            {
+              "date": "2026-07-08",
+              "day": "Rabu",
+              "theme": "Perubahan dan daya lenting alam",
+              "verse_references": [
+                "Ayub 12:7–10"
+              ]
+            },
+            {
+              "date": "2026-07-09",
+              "day": "Kamis",
+              "theme": "Konsekuensi tindakan manusia",
+              "verse_references": [
+                "Mazmur 104:24"
+              ]
+            },
+            {
+              "date": "2026-07-10",
+              "day": "Jumat",
+              "theme": "Belajar dari keterhubungan",
+              "verse_references": [
+                "Roma 1:20"
+              ]
+            },
+            {
+              "date": "2026-07-11",
+              "day": "Sabtu",
+              "theme": "Melindungi lingkungan terdekat",
+              "verse_references": [
+                "Kejadian 1:31"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-07-12",
+          "week_in_month": 2,
+          "pillar_id": "firman",
+          "pillar_title": "Hikmat Firman",
+          "format": "khotbah",
+          "sermon_theme": "Hikmat dalam Amsal",
+          "sermon_focus": "Memahami Kitab Suci dengan iman dan akal budi",
+          "verse_references": [
+            "Lukas 10:27",
+            "Kisah Para Rasul 17:11",
+            "2 Timotius 3:16–17"
+          ],
+          "daily": [
+            {
+              "date": "2026-07-13",
+              "day": "Senin",
+              "theme": "Mengenal sastra hikmat",
+              "verse_references": [
+                "Lukas 10:27"
+              ]
+            },
+            {
+              "date": "2026-07-14",
+              "day": "Selasa",
+              "theme": "Amsal sebagai nasihat, bukan rumus",
+              "verse_references": [
+                "Kisah Para Rasul 17:11"
+              ]
+            },
+            {
+              "date": "2026-07-15",
+              "day": "Rabu",
+              "theme": "Membaca konteks sebuah peribahasa",
+              "verse_references": [
+                "2 Timotius 3:16–17"
+              ]
+            },
+            {
+              "date": "2026-07-16",
+              "day": "Kamis",
+              "theme": "Hikmat dalam ucapan",
+              "verse_references": [
+                "Lukas 24:27"
+              ]
+            },
+            {
+              "date": "2026-07-17",
+              "day": "Jumat",
+              "theme": "Hikmat dalam keputusan",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-07-18",
+              "day": "Sabtu",
+              "theme": "Membiasakan kejujuran dan kebajikan",
+              "verse_references": [
+                "Yakobus 1:22"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-07-19",
+          "week_in_month": 3,
+          "pillar_id": "pengetahuan",
+          "pillar_title": "Hikmat Pengetahuan",
+          "format": "khotbah",
+          "sermon_theme": "Sejarah Penemuan Ilmiah",
+          "sermon_focus": "Mencari kebenaran melalui iman, nalar, dan penyelidikan",
+          "verse_references": [
+            "Amsal 18:15",
+            "1 Tesalonika 5:21",
+            "Amsal 25:2"
+          ],
+          "daily": [
+            {
+              "date": "2026-07-20",
+              "day": "Senin",
+              "theme": "Ilmu tumbuh melalui koreksi",
+              "verse_references": [
+                "Amsal 18:15"
+              ]
+            },
+            {
+              "date": "2026-07-21",
+              "day": "Selasa",
+              "theme": "Peran kerja sama peneliti",
+              "verse_references": [
+                "1 Tesalonika 5:21"
+              ]
+            },
+            {
+              "date": "2026-07-22",
+              "day": "Rabu",
+              "theme": "Kesalahan yang mengajari",
+              "verse_references": [
+                "Amsal 25:2"
+              ]
+            },
+            {
+              "date": "2026-07-23",
+              "day": "Kamis",
+              "theme": "Bukti mengubah pemahaman",
+              "verse_references": [
+                "Amsal 1:5"
+              ]
+            },
+            {
+              "date": "2026-07-24",
+              "day": "Jumat",
+              "theme": "Etika dalam penelitian",
+              "verse_references": [
+                "Yakobus 1:5"
+              ]
+            },
+            {
+              "date": "2026-07-25",
+              "day": "Sabtu",
+              "theme": "Menghargai pencarian pengetahuan",
+              "verse_references": [
+                "Filipi 4:8"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-07-26",
+          "week_in_month": 4,
+          "pillar_id": "kehidupan",
+          "pillar_title": "Hikmat Kehidupan",
+          "format": "khotbah",
+          "sermon_theme": "Keadilan dan Kepedulian",
+          "sermon_focus": "Mewujudkan kasih kepada sesama dan seluruh ciptaan",
+          "verse_references": [
+            "Matius 22:37–39",
+            "Mikha 6:8",
+            "Kejadian 2:15"
+          ],
+          "daily": [
+            {
+              "date": "2026-07-27",
+              "day": "Senin",
+              "theme": "Mengenali ketimpangan",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-07-28",
+              "day": "Selasa",
+              "theme": "Mendengar suara yang terabaikan",
+              "verse_references": [
+                "Mikha 6:8"
+              ]
+            },
+            {
+              "date": "2026-07-29",
+              "day": "Rabu",
+              "theme": "Kasih yang melampaui belas kasihan sesaat",
+              "verse_references": [
+                "Kejadian 2:15"
+              ]
+            },
+            {
+              "date": "2026-07-30",
+              "day": "Kamis",
+              "theme": "Keadilan dalam keputusan kecil",
+              "verse_references": [
+                "Matius 25:35–40"
+              ]
+            },
+            {
+              "date": "2026-07-31",
+              "day": "Jumat",
+              "theme": "Pelayanan yang bermartabat",
+              "verse_references": [
+                "Galatia 6:9–10"
+              ]
+            },
+            {
+              "date": "2026-08-01",
+              "day": "Sabtu",
+              "theme": "Menjadi tetangga yang baik",
+              "verse_references": [
+                "Yakobus 2:17"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Agustus",
+      "theme": "Keteraturan, Perubahan, dan Kebijaksanaan",
+      "introduction": "Merenungkan perubahan alam, bahasa nubuat, filsafat, serta persatuan dalam keberagaman.",
+      "weeks": [
+        {
+          "sunday": "2026-08-02",
+          "week_in_month": 1,
+          "pillar_id": "penciptaan",
+          "pillar_title": "Hikmat Penciptaan",
+          "format": "khotbah",
+          "sermon_theme": "Keteraturan dan Perubahan Alam",
+          "sermon_focus": "Mengenal Tuhan melalui keagungan semesta",
+          "verse_references": [
+            "Mazmur 19:2",
+            "Mazmur 111:2",
+            "Ayub 12:7–10"
+          ],
+          "daily": [
+            {
+              "date": "2026-08-03",
+              "day": "Senin",
+              "theme": "Pola yang tampak di alam",
+              "verse_references": [
+                "Mazmur 19:2"
+              ]
+            },
+            {
+              "date": "2026-08-04",
+              "day": "Selasa",
+              "theme": "Perubahan adalah bagian dari dunia",
+              "verse_references": [
+                "Mazmur 111:2"
+              ]
+            },
+            {
+              "date": "2026-08-05",
+              "day": "Rabu",
+              "theme": "Membedakan pola dan kebetulan",
+              "verse_references": [
+                "Ayub 12:7–10"
+              ]
+            },
+            {
+              "date": "2026-08-06",
+              "day": "Kamis",
+              "theme": "Menghormati proses jangka panjang",
+              "verse_references": [
+                "Mazmur 104:24"
+              ]
+            },
+            {
+              "date": "2026-08-07",
+              "day": "Jumat",
+              "theme": "Belajar menerima perubahan",
+              "verse_references": [
+                "Roma 1:20"
+              ]
+            },
+            {
+              "date": "2026-08-08",
+              "day": "Sabtu",
+              "theme": "Bertindak bijak dalam ketidakpastian",
+              "verse_references": [
+                "Kejadian 1:31"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-08-09",
+          "week_in_month": 2,
+          "pillar_id": "firman",
+          "pillar_title": "Hikmat Firman",
+          "format": "khotbah",
+          "sermon_theme": "Nubuat dan Penafsirannya",
+          "sermon_focus": "Memahami Kitab Suci dengan iman dan akal budi",
+          "verse_references": [
+            "Lukas 10:27",
+            "Kisah Para Rasul 17:11",
+            "2 Timotius 3:16–17"
+          ],
+          "daily": [
+            {
+              "date": "2026-08-10",
+              "day": "Senin",
+              "theme": "Mengenali sastra kenabian",
+              "verse_references": [
+                "Lukas 10:27"
+              ]
+            },
+            {
+              "date": "2026-08-11",
+              "day": "Selasa",
+              "theme": "Pesan bagi pendengar pertama",
+              "verse_references": [
+                "Kisah Para Rasul 17:11"
+              ]
+            },
+            {
+              "date": "2026-08-12",
+              "day": "Rabu",
+              "theme": "Bahasa simbol dan pengharapan",
+              "verse_references": [
+                "2 Timotius 3:16–17"
+              ]
+            },
+            {
+              "date": "2026-08-13",
+              "day": "Kamis",
+              "theme": "Menghindari prediksi yang dipaksakan",
+              "verse_references": [
+                "Lukas 24:27"
+              ]
+            },
+            {
+              "date": "2026-08-14",
+              "day": "Jumat",
+              "theme": "Keadilan sebagai seruan para nabi",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-08-15",
+              "day": "Sabtu",
+              "theme": "Menghidupi pesan dengan rendah hati",
+              "verse_references": [
+                "Yakobus 1:22"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-08-16",
+          "week_in_month": 3,
+          "pillar_id": "pengetahuan",
+          "pillar_title": "Hikmat Pengetahuan",
+          "format": "khotbah",
+          "sermon_theme": "Filsafat dan Teologi",
+          "sermon_focus": "Mencari kebenaran melalui iman, nalar, dan penyelidikan",
+          "verse_references": [
+            "Amsal 18:15",
+            "1 Tesalonika 5:21",
+            "Amsal 25:2"
+          ],
+          "daily": [
+            {
+              "date": "2026-08-17",
+              "day": "Senin",
+              "theme": "Apa itu argumen yang baik?",
+              "verse_references": [
+                "Amsal 18:15"
+              ]
+            },
+            {
+              "date": "2026-08-18",
+              "day": "Selasa",
+              "theme": "Pertanyaan tentang keberadaan",
+              "verse_references": [
+                "1 Tesalonika 5:21"
+              ]
+            },
+            {
+              "date": "2026-08-19",
+              "day": "Rabu",
+              "theme": "Membedakan makna dan mekanisme",
+              "verse_references": [
+                "Amsal 25:2"
+              ]
+            },
+            {
+              "date": "2026-08-20",
+              "day": "Kamis",
+              "theme": "Memahami asumsi tersembunyi",
+              "verse_references": [
+                "Amsal 1:5"
+              ]
+            },
+            {
+              "date": "2026-08-21",
+              "day": "Jumat",
+              "theme": "Belajar dari pandangan yang berbeda",
+              "verse_references": [
+                "Yakobus 1:5"
+              ]
+            },
+            {
+              "date": "2026-08-22",
+              "day": "Sabtu",
+              "theme": "Menggunakan hikmat untuk berdamai",
+              "verse_references": [
+                "Filipi 4:8"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-08-23",
+          "week_in_month": 4,
+          "pillar_id": "kehidupan",
+          "pillar_title": "Hikmat Kehidupan",
+          "format": "khotbah",
+          "sermon_theme": "Persatuan dalam Keberagaman",
+          "sermon_focus": "Mewujudkan kasih kepada sesama dan seluruh ciptaan",
+          "verse_references": [
+            "Matius 22:37–39",
+            "Mikha 6:8",
+            "Kejadian 2:15"
+          ],
+          "daily": [
+            {
+              "date": "2026-08-24",
+              "day": "Senin",
+              "theme": "Perbedaan tidak harus memecah",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-08-25",
+              "day": "Selasa",
+              "theme": "Membangun ruang aman untuk dialog",
+              "verse_references": [
+                "Mikha 6:8"
+              ]
+            },
+            {
+              "date": "2026-08-26",
+              "day": "Rabu",
+              "theme": "Mengatasi prasangka",
+              "verse_references": [
+                "Kejadian 2:15"
+              ]
+            },
+            {
+              "date": "2026-08-27",
+              "day": "Kamis",
+              "theme": "Menghargai kebebasan hati nurani",
+              "verse_references": [
+                "Matius 25:35–40"
+              ]
+            },
+            {
+              "date": "2026-08-28",
+              "day": "Jumat",
+              "theme": "Kerja sama lintas pandangan",
+              "verse_references": [
+                "Galatia 6:9–10"
+              ]
+            },
+            {
+              "date": "2026-08-29",
+              "day": "Sabtu",
+              "theme": "Merayakan martabat bersama",
+              "verse_references": [
+                "Yakobus 2:17"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-08-30",
+          "week_in_month": 5,
+          "pillar_id": "lintas_pilar",
+          "pillar_title": "Ibadah Hikmat Bersama",
+          "format": "dialog-refleksi",
+          "sermon_theme": "Forum Hikmat: Ketika Pandangan Berbeda",
+          "sermon_focus": "Dialog, doa, refleksi, dan pelayanan bersama yang merangkum empat pilar.",
+          "verse_references": [
+            "Mazmur 111:2",
+            "1 Tesalonika 5:21",
+            "Lukas 10:27"
+          ],
+          "daily": [
+            {
+              "date": "2026-08-31",
+              "day": "Senin",
+              "theme": "Mengenali titik temu",
+              "verse_references": [
+                "Mazmur 111:2"
+              ]
+            },
+            {
+              "date": "2026-09-01",
+              "day": "Selasa",
+              "theme": "Membedakan kritik dan serangan pribadi",
+              "verse_references": [
+                "Amsal 18:15"
+              ]
+            },
+            {
+              "date": "2026-09-02",
+              "day": "Rabu",
+              "theme": "Menerima koreksi dengan lapang",
+              "verse_references": [
+                "Lukas 10:27"
+              ]
+            },
+            {
+              "date": "2026-09-03",
+              "day": "Kamis",
+              "theme": "Menjaga percakapan yang adil",
+              "verse_references": [
+                "1 Tesalonika 5:21"
+              ]
+            },
+            {
+              "date": "2026-09-04",
+              "day": "Jumat",
+              "theme": "Mengakui keterbatasan diri",
+              "verse_references": [
+                "Mikha 6:8"
+              ]
+            },
+            {
+              "date": "2026-09-05",
+              "day": "Sabtu",
+              "theme": "Membangun kesepakatan untuk melayani",
+              "verse_references": [
+                "Yakobus 1:22"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": "September",
+      "theme": "Pikiran, Tubuh, dan Martabat",
+      "introduction": "Menemukan refleksi iman dalam pemahaman tubuh, pesan kasih, kesadaran, dan kesejahteraan.",
+      "weeks": [
+        {
+          "sunday": "2026-09-06",
+          "week_in_month": 1,
+          "pillar_id": "penciptaan",
+          "pillar_title": "Hikmat Penciptaan",
+          "format": "khotbah",
+          "sermon_theme": "Tubuh Manusia dan Kehidupan",
+          "sermon_focus": "Mengenal Tuhan melalui keagungan semesta",
+          "verse_references": [
+            "Mazmur 19:2",
+            "Mazmur 111:2",
+            "Ayub 12:7–10"
+          ],
+          "daily": [
+            {
+              "date": "2026-09-07",
+              "day": "Senin",
+              "theme": "Tubuh sebagai sistem yang saling terhubung",
+              "verse_references": [
+                "Mazmur 19:2"
+              ]
+            },
+            {
+              "date": "2026-09-08",
+              "day": "Selasa",
+              "theme": "Menjaga kesehatan dengan bijaksana",
+              "verse_references": [
+                "Mazmur 111:2"
+              ]
+            },
+            {
+              "date": "2026-09-09",
+              "day": "Rabu",
+              "theme": "Memahami kerentanan manusia",
+              "verse_references": [
+                "Ayub 12:7–10"
+              ]
+            },
+            {
+              "date": "2026-09-10",
+              "day": "Kamis",
+              "theme": "Menghindari stigma penyakit",
+              "verse_references": [
+                "Mazmur 104:24"
+              ]
+            },
+            {
+              "date": "2026-09-11",
+              "day": "Jumat",
+              "theme": "Syukur atas kemampuan tubuh",
+              "verse_references": [
+                "Roma 1:20"
+              ]
+            },
+            {
+              "date": "2026-09-12",
+              "day": "Sabtu",
+              "theme": "Menolong mereka yang membutuhkan",
+              "verse_references": [
+                "Kejadian 1:31"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-09-13",
+          "week_in_month": 2,
+          "pillar_id": "firman",
+          "pillar_title": "Hikmat Firman",
+          "format": "khotbah",
+          "sermon_theme": "Kasih dalam Perjanjian Baru",
+          "sermon_focus": "Memahami Kitab Suci dengan iman dan akal budi",
+          "verse_references": [
+            "Lukas 10:27",
+            "Kisah Para Rasul 17:11",
+            "2 Timotius 3:16–17"
+          ],
+          "daily": [
+            {
+              "date": "2026-09-14",
+              "day": "Senin",
+              "theme": "Konteks perintah kasih",
+              "verse_references": [
+                "Lukas 10:27"
+              ]
+            },
+            {
+              "date": "2026-09-15",
+              "day": "Selasa",
+              "theme": "Kasih melampaui perasaan",
+              "verse_references": [
+                "Kisah Para Rasul 17:11"
+              ]
+            },
+            {
+              "date": "2026-09-16",
+              "day": "Rabu",
+              "theme": "Teladan Yesus kepada yang rentan",
+              "verse_references": [
+                "2 Timotius 3:16–17"
+              ]
+            },
+            {
+              "date": "2026-09-17",
+              "day": "Kamis",
+              "theme": "Kasih dan tanggung jawab",
+              "verse_references": [
+                "Lukas 24:27"
+              ]
+            },
+            {
+              "date": "2026-09-18",
+              "day": "Jumat",
+              "theme": "Kasih dalam perbedaan",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-09-19",
+              "day": "Sabtu",
+              "theme": "Kasih sebagai kebiasaan",
+              "verse_references": [
+                "Yakobus 1:22"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-09-20",
+          "week_in_month": 3,
+          "pillar_id": "pengetahuan",
+          "pillar_title": "Hikmat Pengetahuan",
+          "format": "khotbah",
+          "sermon_theme": "Otak, Pikiran, dan Kesadaran",
+          "sermon_focus": "Mencari kebenaran melalui iman, nalar, dan penyelidikan",
+          "verse_references": [
+            "Amsal 18:15",
+            "1 Tesalonika 5:21",
+            "Amsal 25:2"
+          ],
+          "daily": [
+            {
+              "date": "2026-09-21",
+              "day": "Senin",
+              "theme": "Otak dan pengalaman manusia",
+              "verse_references": [
+                "Amsal 18:15"
+              ]
+            },
+            {
+              "date": "2026-09-22",
+              "day": "Selasa",
+              "theme": "Pertanyaan tentang kesadaran",
+              "verse_references": [
+                "1 Tesalonika 5:21"
+              ]
+            },
+            {
+              "date": "2026-09-23",
+              "day": "Rabu",
+              "theme": "Membedakan temuan dan tafsir",
+              "verse_references": [
+                "Amsal 25:2"
+              ]
+            },
+            {
+              "date": "2026-09-24",
+              "day": "Kamis",
+              "theme": "Menghargai kompleksitas pikiran",
+              "verse_references": [
+                "Amsal 1:5"
+              ]
+            },
+            {
+              "date": "2026-09-25",
+              "day": "Jumat",
+              "theme": "Empati dan kesehatan mental",
+              "verse_references": [
+                "Yakobus 1:5"
+              ]
+            },
+            {
+              "date": "2026-09-26",
+              "day": "Sabtu",
+              "theme": "Berbicara bijak tentang jiwa",
+              "verse_references": [
+                "Filipi 4:8"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-09-27",
+          "week_in_month": 4,
+          "pillar_id": "kehidupan",
+          "pillar_title": "Hikmat Kehidupan",
+          "format": "khotbah",
+          "sermon_theme": "Kesehatan dan Kesejahteraan",
+          "sermon_focus": "Mewujudkan kasih kepada sesama dan seluruh ciptaan",
+          "verse_references": [
+            "Matius 22:37–39",
+            "Mikha 6:8",
+            "Kejadian 2:15"
+          ],
+          "daily": [
+            {
+              "date": "2026-09-28",
+              "day": "Senin",
+              "theme": "Mendengar kebutuhan tubuh",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-09-29",
+              "day": "Selasa",
+              "theme": "Merawat kesehatan emosi",
+              "verse_references": [
+                "Mikha 6:8"
+              ]
+            },
+            {
+              "date": "2026-09-30",
+              "day": "Rabu",
+              "theme": "Dukungan sosial yang sehat",
+              "verse_references": [
+                "Kejadian 2:15"
+              ]
+            },
+            {
+              "date": "2026-10-01",
+              "day": "Kamis",
+              "theme": "Menghindari janji kesembuhan palsu",
+              "verse_references": [
+                "Matius 25:35–40"
+              ]
+            },
+            {
+              "date": "2026-10-02",
+              "day": "Jumat",
+              "theme": "Mencari bantuan saat dibutuhkan",
+              "verse_references": [
+                "Galatia 6:9–10"
+              ]
+            },
+            {
+              "date": "2026-10-03",
+              "day": "Sabtu",
+              "theme": "Kebiasaan kecil untuk kesejahteraan",
+              "verse_references": [
+                "Yakobus 2:17"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Oktober",
+      "theme": "Merawat Rumah Bersama",
+      "introduction": "Menanggapi perubahan lingkungan, ajaran kasih, teknologi, dan tanggung jawab ekologis.",
+      "weeks": [
+        {
+          "sunday": "2026-10-04",
+          "week_in_month": 1,
+          "pillar_id": "penciptaan",
+          "pillar_title": "Hikmat Penciptaan",
+          "format": "khotbah",
+          "sermon_theme": "Bumi dan Perubahan Iklim",
+          "sermon_focus": "Mengenal Tuhan melalui keagungan semesta",
+          "verse_references": [
+            "Mazmur 19:2",
+            "Mazmur 111:2",
+            "Ayub 12:7–10"
+          ],
+          "daily": [
+            {
+              "date": "2026-10-05",
+              "day": "Senin",
+              "theme": "Cuaca dan iklim tidak sama",
+              "verse_references": [
+                "Mazmur 19:2"
+              ]
+            },
+            {
+              "date": "2026-10-06",
+              "day": "Selasa",
+              "theme": "Membaca bukti perubahan lingkungan",
+              "verse_references": [
+                "Mazmur 111:2"
+              ]
+            },
+            {
+              "date": "2026-10-07",
+              "day": "Rabu",
+              "theme": "Dampak bagi yang rentan",
+              "verse_references": [
+                "Ayub 12:7–10"
+              ]
+            },
+            {
+              "date": "2026-10-08",
+              "day": "Kamis",
+              "theme": "Harapan yang berpijak pada tindakan",
+              "verse_references": [
+                "Mazmur 104:24"
+              ]
+            },
+            {
+              "date": "2026-10-09",
+              "day": "Jumat",
+              "theme": "Kebiasaan rendah dampak",
+              "verse_references": [
+                "Roma 1:20"
+              ]
+            },
+            {
+              "date": "2026-10-10",
+              "day": "Sabtu",
+              "theme": "Kerja sama menjaga bumi",
+              "verse_references": [
+                "Kejadian 1:31"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-10-11",
+          "week_in_month": 2,
+          "pillar_id": "firman",
+          "pillar_title": "Hikmat Firman",
+          "format": "khotbah",
+          "sermon_theme": "Etika dalam Ajaran Kristus",
+          "sermon_focus": "Memahami Kitab Suci dengan iman dan akal budi",
+          "verse_references": [
+            "Lukas 10:27",
+            "Kisah Para Rasul 17:11",
+            "2 Timotius 3:16–17"
+          ],
+          "daily": [
+            {
+              "date": "2026-10-12",
+              "day": "Senin",
+              "theme": "Kasih dan keadilan bersama",
+              "verse_references": [
+                "Lukas 10:27"
+              ]
+            },
+            {
+              "date": "2026-10-13",
+              "day": "Selasa",
+              "theme": "Memperlakukan sesama dengan hormat",
+              "verse_references": [
+                "Kisah Para Rasul 17:11"
+              ]
+            },
+            {
+              "date": "2026-10-14",
+              "day": "Rabu",
+              "theme": "Kejujuran dalam keputusan",
+              "verse_references": [
+                "2 Timotius 3:16–17"
+              ]
+            },
+            {
+              "date": "2026-10-15",
+              "day": "Kamis",
+              "theme": "Sikap terhadap kekuasaan",
+              "verse_references": [
+                "Lukas 24:27"
+              ]
+            },
+            {
+              "date": "2026-10-16",
+              "day": "Jumat",
+              "theme": "Etika dalam konflik",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-10-17",
+              "day": "Sabtu",
+              "theme": "Menghidupi nilai Kerajaan Tuhan",
+              "verse_references": [
+                "Yakobus 1:22"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-10-18",
+          "week_in_month": 3,
+          "pillar_id": "pengetahuan",
+          "pillar_title": "Hikmat Pengetahuan",
+          "format": "khotbah",
+          "sermon_theme": "Teknologi dan Moralitas",
+          "sermon_focus": "Mencari kebenaran melalui iman, nalar, dan penyelidikan",
+          "verse_references": [
+            "Amsal 18:15",
+            "1 Tesalonika 5:21",
+            "Amsal 25:2"
+          ],
+          "daily": [
+            {
+              "date": "2026-10-19",
+              "day": "Senin",
+              "theme": "Teknologi sebagai alat, bukan tujuan",
+              "verse_references": [
+                "Amsal 18:15"
+              ]
+            },
+            {
+              "date": "2026-10-20",
+              "day": "Selasa",
+              "theme": "Privasi dan martabat digital",
+              "verse_references": [
+                "1 Tesalonika 5:21"
+              ]
+            },
+            {
+              "date": "2026-10-21",
+              "day": "Rabu",
+              "theme": "Memeriksa informasi daring",
+              "verse_references": [
+                "Amsal 25:2"
+              ]
+            },
+            {
+              "date": "2026-10-22",
+              "day": "Kamis",
+              "theme": "Mengurangi bias dan prasangka",
+              "verse_references": [
+                "Amsal 1:5"
+              ]
+            },
+            {
+              "date": "2026-10-23",
+              "day": "Jumat",
+              "theme": "Menggunakan AI secara bertanggung jawab",
+              "verse_references": [
+                "Yakobus 1:5"
+              ]
+            },
+            {
+              "date": "2026-10-24",
+              "day": "Sabtu",
+              "theme": "Memilih kebaikan di ruang digital",
+              "verse_references": [
+                "Filipi 4:8"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-10-25",
+          "week_in_month": 4,
+          "pillar_id": "kehidupan",
+          "pillar_title": "Hikmat Kehidupan",
+          "format": "khotbah",
+          "sermon_theme": "Tanggung Jawab Ekologis",
+          "sermon_focus": "Mewujudkan kasih kepada sesama dan seluruh ciptaan",
+          "verse_references": [
+            "Matius 22:37–39",
+            "Mikha 6:8",
+            "Kejadian 2:15"
+          ],
+          "daily": [
+            {
+              "date": "2026-10-26",
+              "day": "Senin",
+              "theme": "Melihat jejak tindakan kita",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-10-27",
+              "day": "Selasa",
+              "theme": "Merawat air dan tanah",
+              "verse_references": [
+                "Mikha 6:8"
+              ]
+            },
+            {
+              "date": "2026-10-28",
+              "day": "Rabu",
+              "theme": "Mengurangi konsumsi berlebih",
+              "verse_references": [
+                "Kejadian 2:15"
+              ]
+            },
+            {
+              "date": "2026-10-29",
+              "day": "Kamis",
+              "theme": "Menghargai keanekaragaman",
+              "verse_references": [
+                "Matius 25:35–40"
+              ]
+            },
+            {
+              "date": "2026-10-30",
+              "day": "Jumat",
+              "theme": "Mengajak komunitas bertindak",
+              "verse_references": [
+                "Galatia 6:9–10"
+              ]
+            },
+            {
+              "date": "2026-10-31",
+              "day": "Sabtu",
+              "theme": "Mengukur perubahan nyata",
+              "verse_references": [
+                "Yakobus 2:17"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "November",
+      "theme": "Hikmat di Tengah Keterbatasan",
+      "introduction": "Menghadapi kefanaan, pengharapan, ketidakpastian, dan penderitaan dengan kejujuran serta kasih.",
+      "weeks": [
+        {
+          "sunday": "2026-11-01",
+          "week_in_month": 1,
+          "pillar_id": "penciptaan",
+          "pillar_title": "Hikmat Penciptaan",
+          "format": "khotbah",
+          "sermon_theme": "Kehidupan dan Kematian di Alam",
+          "sermon_focus": "Mengenal Tuhan melalui keagungan semesta",
+          "verse_references": [
+            "Mazmur 19:2",
+            "Mazmur 111:2",
+            "Ayub 12:7–10"
+          ],
+          "daily": [
+            {
+              "date": "2026-11-02",
+              "day": "Senin",
+              "theme": "Siklus kehidupan dalam alam",
+              "verse_references": [
+                "Mazmur 19:2"
+              ]
+            },
+            {
+              "date": "2026-11-03",
+              "day": "Selasa",
+              "theme": "Kefanaan dan nilai waktu",
+              "verse_references": [
+                "Mazmur 111:2"
+              ]
+            },
+            {
+              "date": "2026-11-04",
+              "day": "Rabu",
+              "theme": "Belajar menerima kehilangan",
+              "verse_references": [
+                "Ayub 12:7–10"
+              ]
+            },
+            {
+              "date": "2026-11-05",
+              "day": "Kamis",
+              "theme": "Belas kasih pada yang berduka",
+              "verse_references": [
+                "Mazmur 104:24"
+              ]
+            },
+            {
+              "date": "2026-11-06",
+              "day": "Jumat",
+              "theme": "Menumbuhkan syukur hari ini",
+              "verse_references": [
+                "Roma 1:20"
+              ]
+            },
+            {
+              "date": "2026-11-07",
+              "day": "Sabtu",
+              "theme": "Menjaga kehidupan yang masih ada",
+              "verse_references": [
+                "Kejadian 1:31"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-11-08",
+          "week_in_month": 2,
+          "pillar_id": "firman",
+          "pillar_title": "Hikmat Firman",
+          "format": "khotbah",
+          "sermon_theme": "Pengharapan dalam Kitab Suci",
+          "sermon_focus": "Memahami Kitab Suci dengan iman dan akal budi",
+          "verse_references": [
+            "Lukas 10:27",
+            "Kisah Para Rasul 17:11",
+            "2 Timotius 3:16–17"
+          ],
+          "daily": [
+            {
+              "date": "2026-11-09",
+              "day": "Senin",
+              "theme": "Memahami bahasa pengharapan",
+              "verse_references": [
+                "Lukas 10:27"
+              ]
+            },
+            {
+              "date": "2026-11-10",
+              "day": "Selasa",
+              "theme": "Pengharapan bukan penyangkalan masalah",
+              "verse_references": [
+                "Kisah Para Rasul 17:11"
+              ]
+            },
+            {
+              "date": "2026-11-11",
+              "day": "Rabu",
+              "theme": "Pesan penghiburan dalam konteks",
+              "verse_references": [
+                "2 Timotius 3:16–17"
+              ]
+            },
+            {
+              "date": "2026-11-12",
+              "day": "Kamis",
+              "theme": "Menemani orang yang berduka",
+              "verse_references": [
+                "Lukas 24:27"
+              ]
+            },
+            {
+              "date": "2026-11-13",
+              "day": "Jumat",
+              "theme": "Kesabaran di masa sulit",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-11-14",
+              "day": "Sabtu",
+              "theme": "Membawa pengharapan lewat tindakan",
+              "verse_references": [
+                "Yakobus 1:22"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-11-15",
+          "week_in_month": 3,
+          "pillar_id": "pengetahuan",
+          "pillar_title": "Hikmat Pengetahuan",
+          "format": "khotbah",
+          "sermon_theme": "Ketidakpastian dan Kerendahan Hati",
+          "sermon_focus": "Mencari kebenaran melalui iman, nalar, dan penyelidikan",
+          "verse_references": [
+            "Amsal 18:15",
+            "1 Tesalonika 5:21",
+            "Amsal 25:2"
+          ],
+          "daily": [
+            {
+              "date": "2026-11-16",
+              "day": "Senin",
+              "theme": "Tidak semua pertanyaan terjawab",
+              "verse_references": [
+                "Amsal 18:15"
+              ]
+            },
+            {
+              "date": "2026-11-17",
+              "day": "Selasa",
+              "theme": "Membedakan kepastian dan keyakinan",
+              "verse_references": [
+                "1 Tesalonika 5:21"
+              ]
+            },
+            {
+              "date": "2026-11-18",
+              "day": "Rabu",
+              "theme": "Bahaya klaim yang berlebihan",
+              "verse_references": [
+                "Amsal 25:2"
+              ]
+            },
+            {
+              "date": "2026-11-19",
+              "day": "Kamis",
+              "theme": "Sikap terbuka terhadap koreksi",
+              "verse_references": [
+                "Amsal 1:5"
+              ]
+            },
+            {
+              "date": "2026-11-20",
+              "day": "Jumat",
+              "theme": "Keberanian mengatakan belum tahu",
+              "verse_references": [
+                "Yakobus 1:5"
+              ]
+            },
+            {
+              "date": "2026-11-21",
+              "day": "Sabtu",
+              "theme": "Rendah hati dalam dialog",
+              "verse_references": [
+                "Filipi 4:8"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-11-22",
+          "week_in_month": 4,
+          "pillar_id": "kehidupan",
+          "pillar_title": "Hikmat Kehidupan",
+          "format": "khotbah",
+          "sermon_theme": "Menghadapi Penderitaan",
+          "sermon_focus": "Mewujudkan kasih kepada sesama dan seluruh ciptaan",
+          "verse_references": [
+            "Matius 22:37–39",
+            "Mikha 6:8",
+            "Kejadian 2:15"
+          ],
+          "daily": [
+            {
+              "date": "2026-11-23",
+              "day": "Senin",
+              "theme": "Hadir bersama yang terluka",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-11-24",
+              "day": "Selasa",
+              "theme": "Menghindari penjelasan yang menyalahkan",
+              "verse_references": [
+                "Mikha 6:8"
+              ]
+            },
+            {
+              "date": "2026-11-25",
+              "day": "Rabu",
+              "theme": "Mendengar lebih dahulu",
+              "verse_references": [
+                "Kejadian 2:15"
+              ]
+            },
+            {
+              "date": "2026-11-26",
+              "day": "Kamis",
+              "theme": "Mengizinkan ruang untuk berduka",
+              "verse_references": [
+                "Matius 25:35–40"
+              ]
+            },
+            {
+              "date": "2026-11-27",
+              "day": "Jumat",
+              "theme": "Membangun dukungan praktis",
+              "verse_references": [
+                "Galatia 6:9–10"
+              ]
+            },
+            {
+              "date": "2026-11-28",
+              "day": "Sabtu",
+              "theme": "Memelihara harapan bersama",
+              "verse_references": [
+                "Yakobus 2:17"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-11-29",
+          "week_in_month": 5,
+          "pillar_id": "lintas_pilar",
+          "pillar_title": "Ibadah Hikmat Bersama",
+          "format": "dialog-refleksi",
+          "sermon_theme": "Forum Hikmat: Menemani dalam Kesulitan",
+          "sermon_focus": "Dialog, doa, refleksi, dan pelayanan bersama yang merangkum empat pilar.",
+          "verse_references": [
+            "Mazmur 111:2",
+            "1 Tesalonika 5:21",
+            "Lukas 10:27"
+          ],
+          "daily": [
+            {
+              "date": "2026-11-30",
+              "day": "Senin",
+              "theme": "Menjadi pendengar yang baik",
+              "verse_references": [
+                "Mazmur 111:2"
+              ]
+            },
+            {
+              "date": "2026-12-01",
+              "day": "Selasa",
+              "theme": "Mencari dukungan yang tepat",
+              "verse_references": [
+                "Amsal 18:15"
+              ]
+            },
+            {
+              "date": "2026-12-02",
+              "day": "Rabu",
+              "theme": "Tidak menjanjikan kepastian palsu",
+              "verse_references": [
+                "Lukas 10:27"
+              ]
+            },
+            {
+              "date": "2026-12-03",
+              "day": "Kamis",
+              "theme": "Mengenali kebutuhan nyata",
+              "verse_references": [
+                "1 Tesalonika 5:21"
+              ]
+            },
+            {
+              "date": "2026-12-04",
+              "day": "Jumat",
+              "theme": "Menggalang bantuan komunitas",
+              "verse_references": [
+                "Mikha 6:8"
+              ]
+            },
+            {
+              "date": "2026-12-05",
+              "day": "Sabtu",
+              "theme": "Merenungkan pengharapan bersama",
+              "verse_references": [
+                "Yakobus 1:22"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Desember",
+      "theme": "Syukur dan Pengharapan Baru",
+      "introduction": "Menutup tahun melalui refleksi tentang semesta, kelahiran Kristus, masa depan, dan kasih yang diwujudkan.",
+      "weeks": [
+        {
+          "sunday": "2026-12-06",
+          "week_in_month": 1,
+          "pillar_id": "penciptaan",
+          "pillar_title": "Hikmat Penciptaan",
+          "format": "khotbah",
+          "sermon_theme": "Semesta dan Makna Keberadaan",
+          "sermon_focus": "Mengenal Tuhan melalui keagungan semesta",
+          "verse_references": [
+            "Mazmur 19:2",
+            "Mazmur 111:2",
+            "Ayub 12:7–10"
+          ],
+          "daily": [
+            {
+              "date": "2026-12-07",
+              "day": "Senin",
+              "theme": "Keajaiban keberadaan sehari-hari",
+              "verse_references": [
+                "Mazmur 19:2"
+              ]
+            },
+            {
+              "date": "2026-12-08",
+              "day": "Selasa",
+              "theme": "Menghadapi pertanyaan besar",
+              "verse_references": [
+                "Mazmur 111:2"
+              ]
+            },
+            {
+              "date": "2026-12-09",
+              "day": "Rabu",
+              "theme": "Makna tidak selalu sama dengan mekanisme",
+              "verse_references": [
+                "Ayub 12:7–10"
+              ]
+            },
+            {
+              "date": "2026-12-10",
+              "day": "Kamis",
+              "theme": "Bersyukur tanpa menutup pertanyaan",
+              "verse_references": [
+                "Mazmur 104:24"
+              ]
+            },
+            {
+              "date": "2026-12-11",
+              "day": "Jumat",
+              "theme": "Merenungkan hubungan dan tanggung jawab",
+              "verse_references": [
+                "Roma 1:20"
+              ]
+            },
+            {
+              "date": "2026-12-12",
+              "day": "Sabtu",
+              "theme": "Menemukan harapan dalam pelayanan",
+              "verse_references": [
+                "Kejadian 1:31"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-12-13",
+          "week_in_month": 2,
+          "pillar_id": "firman",
+          "pillar_title": "Hikmat Firman",
+          "format": "khotbah",
+          "sermon_theme": "Makna Kelahiran Kristus",
+          "sermon_focus": "Memahami Kitab Suci dengan iman dan akal budi",
+          "verse_references": [
+            "Lukas 10:27",
+            "Kisah Para Rasul 17:11",
+            "2 Timotius 3:16–17"
+          ],
+          "daily": [
+            {
+              "date": "2026-12-14",
+              "day": "Senin",
+              "theme": "Mengenali latar kisah kelahiran",
+              "verse_references": [
+                "Lukas 10:27"
+              ]
+            },
+            {
+              "date": "2026-12-15",
+              "day": "Selasa",
+              "theme": "Pengharapan bagi yang sederhana",
+              "verse_references": [
+                "Kisah Para Rasul 17:11"
+              ]
+            },
+            {
+              "date": "2026-12-16",
+              "day": "Rabu",
+              "theme": "Damai dalam ajaran Yesus",
+              "verse_references": [
+                "2 Timotius 3:16–17"
+              ]
+            },
+            {
+              "date": "2026-12-17",
+              "day": "Kamis",
+              "theme": "Kehadiran bagi mereka yang tersisih",
+              "verse_references": [
+                "Lukas 24:27"
+              ]
+            },
+            {
+              "date": "2026-12-18",
+              "day": "Jumat",
+              "theme": "Kasih yang hadir dalam kenyataan",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-12-19",
+              "day": "Sabtu",
+              "theme": "Merayakan Natal dengan kepedulian",
+              "verse_references": [
+                "Yakobus 1:22"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-12-20",
+          "week_in_month": 3,
+          "pillar_id": "pengetahuan",
+          "pillar_title": "Hikmat Pengetahuan",
+          "format": "khotbah",
+          "sermon_theme": "Hikmat dan Masa Depan Manusia",
+          "sermon_focus": "Mencari kebenaran melalui iman, nalar, dan penyelidikan",
+          "verse_references": [
+            "Amsal 18:15",
+            "1 Tesalonika 5:21",
+            "Amsal 25:2"
+          ],
+          "daily": [
+            {
+              "date": "2026-12-21",
+              "day": "Senin",
+              "theme": "Teknologi dan pilihan etis",
+              "verse_references": [
+                "Amsal 18:15"
+              ]
+            },
+            {
+              "date": "2026-12-22",
+              "day": "Selasa",
+              "theme": "Memikirkan generasi mendatang",
+              "verse_references": [
+                "1 Tesalonika 5:21"
+              ]
+            },
+            {
+              "date": "2026-12-23",
+              "day": "Rabu",
+              "theme": "Membedakan prediksi dan harapan",
+              "verse_references": [
+                "Amsal 25:2"
+              ]
+            },
+            {
+              "date": "2026-12-24",
+              "day": "Kamis",
+              "theme": "Kepedulian terhadap bumi masa depan",
+              "verse_references": [
+                "Amsal 1:5"
+              ]
+            },
+            {
+              "date": "2026-12-25",
+              "day": "Jumat",
+              "theme": "Membangun pendidikan yang terbuka",
+              "verse_references": [
+                "Yakobus 1:5"
+              ]
+            },
+            {
+              "date": "2026-12-26",
+              "day": "Sabtu",
+              "theme": "Memilih tanggung jawab bersama",
+              "verse_references": [
+                "Filipi 4:8"
+              ]
+            }
+          ]
+        },
+        {
+          "sunday": "2026-12-27",
+          "week_in_month": 4,
+          "pillar_id": "kehidupan",
+          "pillar_title": "Hikmat Kehidupan",
+          "format": "khotbah",
+          "sermon_theme": "Syukur, Kasih, dan Pengharapan",
+          "sermon_focus": "Mewujudkan kasih kepada sesama dan seluruh ciptaan",
+          "verse_references": [
+            "Matius 22:37–39",
+            "Mikha 6:8",
+            "Kejadian 2:15"
+          ],
+          "daily": [
+            {
+              "date": "2026-12-28",
+              "day": "Senin",
+              "theme": "Mengingat hal baik sepanjang tahun",
+              "verse_references": [
+                "Matius 22:37–39"
+              ]
+            },
+            {
+              "date": "2026-12-29",
+              "day": "Selasa",
+              "theme": "Mengakui kegagalan dengan jujur",
+              "verse_references": [
+                "Mikha 6:8"
+              ]
+            },
+            {
+              "date": "2026-12-30",
+              "day": "Rabu",
+              "theme": "Mensyukuri bantuan orang lain",
+              "verse_references": [
+                "Kejadian 2:15"
+              ]
+            },
+            {
+              "date": "2026-12-31",
+              "day": "Kamis",
+              "theme": "Menguatkan relasi yang penting",
+              "verse_references": [
+                "Matius 25:35–40"
+              ]
+            },
+            {
+              "date": "2027-01-01",
+              "day": "Jumat",
+              "theme": "Merencanakan tindakan kasih",
+              "verse_references": [
+                "Galatia 6:9–10"
+              ]
+            },
+            {
+              "date": "2027-01-02",
+              "day": "Sabtu",
+              "theme": "Memasuki tahun baru dengan hikmat",
+              "verse_references": [
+                "Yakobus 2:17"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "week_five_rule": "Minggu kelima menjadi Ibadah Hikmat Bersama sebagai perjumpaan empat pilar; bukan pilar kelima."
+}
