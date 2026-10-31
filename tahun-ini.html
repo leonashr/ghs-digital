@@ -248,7 +248,7 @@ input:not([type=checkbox]):not([type=radio]),textarea,select{background:#fff!imp
     const result=await fetchYear(y);
     if(ticket!==requestId)return result;
     if(result.kind==='ready'){
-      status=result;remoteStatus('Tema resmi dari GitHub Pages · diperiksa '+new Intl.DateTimeFormat('id-ID',{timeZone:TZ,hour:'2-digit',minute:'2-digit'}).format(new Date())+' WIB','success');
+      status=result;remoteStatus('diperiksa '+new Intl.DateTimeFormat('id-ID',{timeZone:TZ,hour:'2-digit',minute:'2-digit'}).format(new Date())+' WIB','success');
     }else if(result.kind==='missing'){
       cache.delete(y);status=result;remoteStatus(`Tema ${y} belum tersedia di GitHub Pages`,'missing');
     }else{
