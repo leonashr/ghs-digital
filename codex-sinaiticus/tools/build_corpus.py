@@ -58,7 +58,7 @@ class Codex(xml.sax.ContentHandler):
     def endElement(self,tag):
         tag=tag.split(':')[-1]
         if tag=='w' and self.words is not None:
-            value=re.sub(r'\s+',' ',''.join(self.words)).strip()
+            value=re.sub(r'\s+','', ''.join(self.words)).strip()
             if value and self.current is not None:self.current['w'].append(value)
             self.words=None
         elif tag=='rdg' and self.readings:self.readings.pop()
