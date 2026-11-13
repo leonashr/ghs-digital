@@ -97,7 +97,7 @@ async function getJSON(url){const r=await fetch(url,{cache:'no-cache'});if(!r.ok
 function openDB(){return new Promise((resolve,reject)=>{if(!('indexedDB' in window)){resolve(null);return;}const req=indexedDB.open('codex-atlas-corpus-v2',1);req.onupgradeneeded=()=>req.result.createObjectStore('corpus');req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);});}
 async function cachePut(key,val){try{const db=await openDB();if(!db)return;await new Promise((resolve,reject)=>{const tx=db.transaction('corpus','readwrite');tx.objectStore('corpus').put(val,key);tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);});db.close();}catch(e){console.warn('Offline cache unavailable',e);}}
 async function cacheGet(key){try{const db=await openDB();if(!db)return null;const result=await new Promise((resolve,reject)=>{const req=db.transaction('corpus','readonly').objectStore('corpus').get(key);req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);});db.close();return result||null;}catch{return null;}}
-async function readBook(id){if(books.has(id))return books.get(id);let data;try{data=await getJSON(`./data/books/b${id}.json`);cachePut(`book-${id}`,data);}catch{data=await cacheGet(`book-${id}`);}if(!Array.isArray(data))throw new Error('Book data not yet built / imported');books.set(id,data);return data;}
+async function readBook(id){if(books.has(id))return books.get(id);if(window.__CODEX_EMBEDDED_BOOKS__?.[id]){const data=window.__CODEX_EMBEDDED_BOOKS__[id];books.set(id,data);return data;}let data;try{data=await getJSON(`./data/books/b${id}.json`);cachePut(`book-${id}`,data);}catch{data=await cacheGet(`book-${id}`);}if(!Array.isArray(data))throw new Error('Book data not yet built / imported');books.set(id,data);return data;}
 
 function populateBooks(){
  const select=$('bookSelect');select.replaceChildren();
@@ -254,7 +254,7 @@ async function init(){
  $('prevBtn').addEventListener('click',()=>chapterMove(-1));$('nextBtn').addEventListener('click',()=>chapterMove(1));$('csvBtn').addEventListener('click',csvDownload);
  $('scanBtn').addEventListener('click',()=>loadScan());
  try{glossary=await getJSON('./data/glossary.json');}catch{glossary=window.__CODEX_EMBEDDED_GLOSSARY__||{};}
- try{manifest=await getJSON('./data/manifest.json');}catch{manifest=await cacheGet('manifest');}
+ try{manifest=await getJSON('./data/manifest.json');}catch{manifest=window.__CODEX_EMBEDDED_MANIFEST__||await cacheGet('manifest');}
  if(!manifest?.books?.length){
    // Portable HTML: request the actual full official transcription on first use.
    // Static GitHub Pages always serves optimized book-by-book JSON instead.
