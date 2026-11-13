@@ -212,7 +212,7 @@ function parseImportedXML(xmlString){
      if(!lem){const rdgs=Array.from(app.children).filter(x=>x.localName==='rdg');
        const rdg=w.closest('rdg');if(rdg && rdgs[0]!==rdg)continue;}
    }
-   const text=w.textContent.replace(/\s+/g,' ').trim();if(text)words.push(text);
+   const text=w.textContent.replace(/\s+/g,'').trim();if(text)words.push(text);
   }
   if(!words.length)continue;
   const record={b,c,v,id:vid,w:words,pages};
