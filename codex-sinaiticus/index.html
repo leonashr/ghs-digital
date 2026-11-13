@@ -105,9 +105,10 @@ function populateBooks(){
  $('totalBooks').textContent=formatCount(manifest.books.length);
  $('totalVerses').textContent=formatCount(manifest.totals?.verses ?? manifest.books.reduce((s,b)=>s+b.count,0));
  $('totalWords').textContent=formatCount(manifest.totals?.tokens);
- const hash=hashState();let b=hash.book;if(!manifest.books.find(x=>x.book===b))b=manifest.books[0]?.book;
+ const hash=hashState();let b=hash.book;if(!manifest.books.find(x=>x.book===b))b=manifest.books.find(x=>x.book==='33')?.book||manifest.books[0]?.book;
  select.value=b||'';
- selectBook(hash.chapter,hash.verse).catch(err=>showError(err));
+ const fresh=!hash.book;
+ selectBook(fresh&&b==='33'?'1':hash.chapter,fresh&&b==='33'?'1':hash.verse).catch(err=>showError(err));
 }
 async function selectBook(wantChapter=null,wantVerse=null){
  const id=$('bookSelect').value;if(!id)return;
