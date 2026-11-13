@@ -32,6 +32,21 @@ jobs:
             'https://raw.githubusercontent.com/itsee-birmingham/codex-sinaiticus/main/sinaiticus_full_v195.xml' \
             --output /tmp/codex-source/sinaiticus.xml
           test "$(wc -c </tmp/codex-source/sinaiticus.xml)" -gt 30000000
+      - name: Inspect source XML identifiers (debug)
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          from collections import Counter
+          counts=Counter()
+          for event,e in ET.iterparse('/tmp/codex-source/sinaiticus.xml',events=('start',)):
+              typ=e.tag.split('}')[-1].split(':')[-1]
+              if typ in ('div','ab','w','pb','verse','v'):
+                  counts[typ]+=1
+                  if counts[typ]<=3:
+                      print('XML',typ,'ATTRIBUTES',dict(e.attrib))
+              if counts['ab']>=3 and counts['w']>=3 and counts['pb']>=2:break
+          print('Observed element counts:',dict(counts))
+          PY
       - name: Convert all preserved verses into per-book JSON and check corpus size
         run: |
           python codex-sinaiticus/tools/build_corpus.py \
