@@ -1,0 +1,61 @@
+name: Codex Sinaiticus - Build entire preserved XML corpus
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'codex-sinaiticus/index.html'
+      - 'codex-sinaiticus/tools/**'
+      - '.github/workflows/codex-sinaiticus.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: codex-sinaiticus-corpus
+  cancel-in-progress: false
+jobs:
+  corpus:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download primary scholarly transcription
+        run: |
+          mkdir -p /tmp/codex-source
+          curl --fail --location --retry 5 --retry-all-errors --retry-delay 5 --connect-timeout 20 --max-time 300 \
+            'https://raw.githubusercontent.com/itsee-birmingham/codex-sinaiticus/main/sinaiticus_full_v195.xml' \
+            --output /tmp/codex-source/sinaiticus.xml
+          test "$(wc -c </tmp/codex-source/sinaiticus.xml)" -gt 30000000
+      - name: Convert all preserved verses into per-book JSON and check corpus size
+        run: |
+          python codex-sinaiticus/tools/build_corpus.py \
+            /tmp/codex-source/sinaiticus.xml codex-sinaiticus/data
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('codex-sinaiticus/data')
+          m=json.loads((root/'manifest.json').read_text())
+          assert len(m['books'])>=35
+          assert m['totals']['verses']>=8500
+          assert m['totals']['tokens']>=50000
+          for b in m['books']:
+              verses=json.loads((root/b['file']).read_text())
+              assert len(verses)==b['count']
+              assert all(v['b']==b['book'] for v in verses)
+          print('All source-derived book files passed structural checks.')
+          PY
+      - name: Commit static corpus without the XML source
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add codex-sinaiticus/data
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build verified Codex Sinaiticus JSON corpus'
+            git push origin HEAD:main
+          fi
