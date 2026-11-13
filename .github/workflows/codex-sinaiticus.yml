@@ -32,21 +32,6 @@ jobs:
             'https://raw.githubusercontent.com/itsee-birmingham/codex-sinaiticus/main/sinaiticus_full_v195.xml' \
             --output /tmp/codex-source/sinaiticus.xml
           test "$(wc -c </tmp/codex-source/sinaiticus.xml)" -gt 30000000
-      - name: Inspect source XML identifiers (debug)
-        run: |
-          python - <<'PY'
-          import xml.etree.ElementTree as ET
-          from collections import Counter
-          counts=Counter()
-          for event,e in ET.iterparse('/tmp/codex-source/sinaiticus.xml',events=('start',)):
-              typ=e.tag.split('}')[-1].split(':')[-1]
-              if typ in ('div','ab','w','pb','verse','v'):
-                  counts[typ]+=1
-                  if counts[typ]<=3:
-                      print('XML',typ,'ATTRIBUTES',dict(e.attrib))
-              if counts['ab']>=3 and counts['w']>=3 and counts['pb']>=2:break
-          print('Observed element counts:',dict(counts))
-          PY
       - name: Convert all preserved verses into per-book JSON and check corpus size
         run: |
           python codex-sinaiticus/tools/build_corpus.py \
@@ -65,12 +50,19 @@ jobs:
               assert all(v['b']==b['book'] for v in verses)
           print('All source-derived book files passed structural checks.')
           PY
-      - name: Commit static corpus without the XML source
+      - name: Package complete offline HTML with all preserved verses
+        run: |
+          python codex-sinaiticus/tools/package_corpus.py \
+            codex-sinaiticus/data \
+            codex-sinaiticus/index.html \
+            codex-sinaiticus/Codex-Sinaiticus-complete.zip
+          unzip -t codex-sinaiticus/Codex-Sinaiticus-complete.zip
+      - name: Commit static corpus and portable offline archive
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add codex-sinaiticus/data
+          git add codex-sinaiticus/data codex-sinaiticus/Codex-Sinaiticus-complete.zip
           if ! git diff --cached --quiet; then
-            git commit -m 'Build verified Codex Sinaiticus JSON corpus'
+            git commit -m 'Build verified Codex Sinaiticus JSON corpus and offline archive'
             git push origin HEAD:main
           fi
