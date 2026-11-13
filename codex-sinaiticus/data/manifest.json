@@ -1,0 +1,1702 @@
+{
+  "title": "Codex Sinaiticus — preserved transcription",
+  "source": "Codex Sinaiticus Project / ITSEE Birmingham",
+  "sourceUrl": "https://raw.githubusercontent.com/itsee-birmingham/codex-sinaiticus/main/sinaiticus_full_v195.xml",
+  "sourceSha256": "b676767c4511ff71393ade69cc6049e2731c235c1a08e7e106f45f00a6dd7233",
+  "license": "CC BY-NC-SA 3.0",
+  "totals": {
+    "verses": 21882,
+    "tokens": 390178
+  },
+  "books": [
+    {
+      "book": "0",
+      "label": {
+        "en": "Fragments",
+        "id": "Fragments"
+      },
+      "titleGreek": "Fragments",
+      "count": 1,
+      "chapters": [
+        0
+      ],
+      "file": "books/b0.json"
+    },
+    {
+      "book": "1",
+      "label": {
+        "en": "Genesis",
+        "id": "Kejadian"
+      },
+      "titleGreek": "Γένεϲιϲ",
+      "count": 73,
+      "chapters": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "file": "books/b1.json"
+    },
+    {
+      "book": "2",
+      "label": {
+        "en": "Exodus",
+        "id": "Keluaran"
+      },
+      "titleGreek": "Λευϊτικόν",
+      "count": 55,
+      "chapters": [
+        20,
+        21,
+        22
+      ],
+      "file": "books/b2.json"
+    },
+    {
+      "book": "3",
+      "label": {
+        "en": "Leviticus",
+        "id": "Imamat"
+      },
+      "titleGreek": "Ἀριθμοί",
+      "count": 216,
+      "chapters": [
+        5,
+        6,
+        7,
+        16,
+        17,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25,
+        26
+      ],
+      "file": "books/b3.json"
+    },
+    {
+      "book": "4",
+      "label": {
+        "en": "Numbers",
+        "id": "Bilangan"
+      },
+      "titleGreek": "Δευτερονόμιον",
+      "count": 87,
+      "chapters": [
+        3,
+        4,
+        28,
+        29,
+        30
+      ],
+      "file": "books/b4.json"
+    },
+    {
+      "book": "5",
+      "label": {
+        "en": "Deuteronomy",
+        "id": "Ulangan"
+      },
+      "titleGreek": "Ἰηϲοῦϲ",
+      "count": 55,
+      "chapters": [
+        12,
+        13,
+        14
+      ],
+      "file": "books/b5.json"
+    },
+    {
+      "book": "6",
+      "label": {
+        "en": "Joshua",
+        "id": "Yosua"
+      },
+      "titleGreek": "Κρίται",
+      "count": 228,
+      "chapters": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "file": "books/b6.json"
+    },
+    {
+      "book": "7",
+      "label": {
+        "en": "Judges",
+        "id": "Hakim-hakim"
+      },
+      "titleGreek": "Παραλειπομένων Α",
+      "count": 283,
+      "chapters": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "file": "books/b7.json"
+    },
+    {
+      "book": "8",
+      "label": {
+        "en": "Ruth",
+        "id": "Rut"
+      },
+      "titleGreek": "Ἔϲδραϲ β",
+      "count": 434,
+      "chapters": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "file": "books/b8.json"
+    },
+    {
+      "book": "9",
+      "label": {
+        "en": "1 Kingdoms",
+        "id": "1 Kerajaan"
+      },
+      "titleGreek": "Ἐϲθήρ",
+      "count": 252,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "file": "books/b9.json"
+    },
+    {
+      "book": "10",
+      "label": {
+        "en": "2 Kingdoms",
+        "id": "2 Kerajaan"
+      },
+      "titleGreek": "Τωβείθ",
+      "count": 232,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "file": "books/b10.json"
+    },
+    {
+      "book": "11",
+      "label": {
+        "en": "3 Kingdoms",
+        "id": "3 Kerajaan"
+      },
+      "titleGreek": "Ἰουδίθ",
+      "count": 327,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "file": "books/b11.json"
+    },
+    {
+      "book": "12",
+      "label": {
+        "en": "4 Kingdoms",
+        "id": "4 Kerajaan"
+      },
+      "titleGreek": "Μακκαβαίων Α",
+      "count": 924,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "file": "books/b12.json"
+    },
+    {
+      "book": "13",
+      "label": {
+        "en": "1 Chronicles",
+        "id": "1 Tawarikh"
+      },
+      "titleGreek": "Μακκαβαίων Δ",
+      "count": 478,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "file": "books/b13.json"
+    },
+    {
+      "book": "14",
+      "label": {
+        "en": "2 Chronicles",
+        "id": "2 Tawarikh"
+      },
+      "titleGreek": "Ἠϲαΐαϲ",
+      "count": 1289,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "file": "books/b14.json"
+    },
+    {
+      "book": "15",
+      "label": {
+        "en": "Ιερεμίαϲ",
+        "id": "Ιερεμίαϲ"
+      },
+      "titleGreek": "Ιερεμίαϲ",
+      "count": 1293,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "file": "books/b15.json"
+    },
+    {
+      "book": "16",
+      "label": {
+        "en": "Θρῆνοι Ἰερεμίου",
+        "id": "Θρῆνοι Ἰερεμίου"
+      },
+      "titleGreek": "Θρῆνοι Ἰερεμίου",
+      "count": 43,
+      "chapters": [
+        1,
+        2
+      ],
+      "file": "books/b16.json"
+    },
+    {
+      "book": "17",
+      "label": {
+        "en": "Ἰωήλ",
+        "id": "Ἰωήλ"
+      },
+      "titleGreek": "Ἰωήλ",
+      "count": 73,
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "file": "books/b17.json"
+    },
+    {
+      "book": "18",
+      "label": {
+        "en": "Ὀβδιού",
+        "id": "Ὀβδιού"
+      },
+      "titleGreek": "Ὀβδιού",
+      "count": 21,
+      "chapters": [
+        1
+      ],
+      "file": "books/b18.json"
+    },
+    {
+      "book": "19",
+      "label": {
+        "en": "Ἰωνᾶς",
+        "id": "Ἰωνᾶς"
+      },
+      "titleGreek": "Ἰωνᾶς",
+      "count": 48,
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "file": "books/b19.json"
+    },
+    {
+      "book": "20",
+      "label": {
+        "en": "Ναούμ",
+        "id": "Ναούμ"
+      },
+      "titleGreek": "Ναούμ",
+      "count": 47,
+      "chapters": [
+        1,
+        2,
+        3
+      ],
+      "file": "books/b20.json"
+    },
+    {
+      "book": "21",
+      "label": {
+        "en": "Ἀμβακούμ",
+        "id": "Ἀμβακούμ"
+      },
+      "titleGreek": "Ἀμβακούμ",
+      "count": 56,
+      "chapters": [
+        1,
+        2,
+        3
+      ],
+      "file": "books/b21.json"
+    },
+    {
+      "book": "22",
+      "label": {
+        "en": "Σοφονίας",
+        "id": "Σοφονίας"
+      },
+      "titleGreek": "Σοφονίας",
+      "count": 53,
+      "chapters": [
+        1,
+        2,
+        3
+      ],
+      "file": "books/b22.json"
+    },
+    {
+      "book": "23",
+      "label": {
+        "en": "Ἀγγαῖος",
+        "id": "Ἀγγαῖος"
+      },
+      "titleGreek": "Ἀγγαῖος",
+      "count": 38,
+      "chapters": [
+        1,
+        2
+      ],
+      "file": "books/b23.json"
+    },
+    {
+      "book": "24",
+      "label": {
+        "en": "Ζαχαρίας",
+        "id": "Ζαχαρίας"
+      },
+      "titleGreek": "Ζαχαρίας",
+      "count": 211,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "file": "books/b24.json"
+    },
+    {
+      "book": "25",
+      "label": {
+        "en": "Μαλαχίας",
+        "id": "Μαλαχίας"
+      },
+      "titleGreek": "Μαλαχίας",
+      "count": 55,
+      "chapters": [
+        1,
+        2,
+        3
+      ],
+      "file": "books/b25.json"
+    },
+    {
+      "book": "26",
+      "label": {
+        "en": "Psalms",
+        "id": "Mazmur"
+      },
+      "titleGreek": "Ψαλμοί",
+      "count": 2530,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151
+      ],
+      "file": "books/b26.json"
+    },
+    {
+      "book": "27",
+      "label": {
+        "en": "Proverbs",
+        "id": "Amsal"
+      },
+      "titleGreek": "Παροιμίαι",
+      "count": 892,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "file": "books/b27.json"
+    },
+    {
+      "book": "28",
+      "label": {
+        "en": "Ἐκκλησιαστής",
+        "id": "Ἐκκλησιαστής"
+      },
+      "titleGreek": "Ἐκκλησιαστής",
+      "count": 221,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "file": "books/b28.json"
+    },
+    {
+      "book": "29",
+      "label": {
+        "en": "Ἄσμα",
+        "id": "Ἄσμα"
+      },
+      "titleGreek": "Ἄσμα",
+      "count": 117,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "file": "books/b29.json"
+    },
+    {
+      "book": "30",
+      "label": {
+        "en": "Σοφία Σαλoμῶντος",
+        "id": "Σοφία Σαλoμῶντος"
+      },
+      "titleGreek": "Σοφία Σαλoμῶντος",
+      "count": 435,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "file": "books/b30.json"
+    },
+    {
+      "book": "31",
+      "label": {
+        "en": "Σοφία Σειράχ",
+        "id": "Σοφία Σειράχ"
+      },
+      "titleGreek": "Σοφία Σειράχ",
+      "count": 1401,
+      "chapters": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "file": "books/b31.json"
+    },
+    {
+      "book": "32",
+      "label": {
+        "en": "Job",
+        "id": "Ayub"
+      },
+      "titleGreek": "Ἰώβ",
+      "count": 1052,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "file": "books/b32.json"
+    },
+    {
+      "book": "33",
+      "label": {
+        "en": "Matthew",
+        "id": "Matius"
+      },
+      "titleGreek": "Κατὰ Μαθθαῖον",
+      "count": 1065,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "file": "books/b33.json"
+    },
+    {
+      "book": "34",
+      "label": {
+        "en": "Mark",
+        "id": "Markus"
+      },
+      "titleGreek": "Κατὰ Μάρκον",
+      "count": 658,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "file": "books/b34.json"
+    },
+    {
+      "book": "35",
+      "label": {
+        "en": "Luke",
+        "id": "Lukas"
+      },
+      "titleGreek": "Κατὰ Λουκᾶν",
+      "count": 1148,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "file": "books/b35.json"
+    },
+    {
+      "book": "36",
+      "label": {
+        "en": "John",
+        "id": "Yohanes"
+      },
+      "titleGreek": "Κατὰ Ἰωάννην",
+      "count": 862,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "file": "books/b36.json"
+    },
+    {
+      "book": "37",
+      "label": {
+        "en": "Romans",
+        "id": "Roma"
+      },
+      "titleGreek": "Πρὸς Ρωμαίους",
+      "count": 431,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "file": "books/b37.json"
+    },
+    {
+      "book": "38",
+      "label": {
+        "en": "1 Corinthians",
+        "id": "1 Korintus"
+      },
+      "titleGreek": "Πρὸς Κορινθίους Α´",
+      "count": 436,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "file": "books/b38.json"
+    },
+    {
+      "book": "39",
+      "label": {
+        "en": "2 Corinthians",
+        "id": "2 Korintus"
+      },
+      "titleGreek": "Πρὸς Κορινθίους Β´",
+      "count": 256,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "file": "books/b39.json"
+    },
+    {
+      "book": "40",
+      "label": {
+        "en": "Galatians",
+        "id": "Galatia"
+      },
+      "titleGreek": "Πρὸς Γαλατάς",
+      "count": 149,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "file": "books/b40.json"
+    },
+    {
+      "book": "41",
+      "label": {
+        "en": "Ephesians",
+        "id": "Efesus"
+      },
+      "titleGreek": "Πρὸς Εφεσίους",
+      "count": 154,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "file": "books/b41.json"
+    },
+    {
+      "book": "42",
+      "label": {
+        "en": "Philippians",
+        "id": "Filipi"
+      },
+      "titleGreek": "Πρὸς Φιλιππησίους",
+      "count": 104,
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "file": "books/b42.json"
+    },
+    {
+      "book": "43",
+      "label": {
+        "en": "Colossians",
+        "id": "Kolose"
+      },
+      "titleGreek": "Πρὸϲ Κολοσσαεῖς",
+      "count": 95,
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "file": "books/b43.json"
+    },
+    {
+      "book": "44",
+      "label": {
+        "en": "1 Thessalonians",
+        "id": "1 Tesalonika"
+      },
+      "titleGreek": "Πρὸς Θεσσαλονικεῖς Α´",
+      "count": 89,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "books/b44.json"
+    },
+    {
+      "book": "45",
+      "label": {
+        "en": "2 Thessalonians",
+        "id": "2 Tesalonika"
+      },
+      "titleGreek": "Πρὸς Θεσσαλονικεῖς Β´",
+      "count": 47,
+      "chapters": [
+        1,
+        2,
+        3
+      ],
+      "file": "books/b45.json"
+    },
+    {
+      "book": "46",
+      "label": {
+        "en": "Hebrews",
+        "id": "Ibrani"
+      },
+      "titleGreek": "Πρὸς Ἑβραίους",
+      "count": 302,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "file": "books/b46.json"
+    },
+    {
+      "book": "47",
+      "label": {
+        "en": "1 Timothy",
+        "id": "1 Timotius"
+      },
+      "titleGreek": "Πρὸς Τιμόθεον Α´",
+      "count": 113,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "file": "books/b47.json"
+    },
+    {
+      "book": "48",
+      "label": {
+        "en": "2 Timothy",
+        "id": "2 Timotius"
+      },
+      "titleGreek": "Πρὸς Τιμόθεον Β´",
+      "count": 83,
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "file": "books/b48.json"
+    },
+    {
+      "book": "49",
+      "label": {
+        "en": "Titus",
+        "id": "Titus"
+      },
+      "titleGreek": "Πρὸς Τίτον",
+      "count": 46,
+      "chapters": [
+        1,
+        2,
+        3
+      ],
+      "file": "books/b49.json"
+    },
+    {
+      "book": "50",
+      "label": {
+        "en": "Philemon",
+        "id": "Filemon"
+      },
+      "titleGreek": "Πρὸς Φιλήμονα",
+      "count": 25,
+      "chapters": [
+        1
+      ],
+      "file": "books/b50.json"
+    },
+    {
+      "book": "51",
+      "label": {
+        "en": "Acts",
+        "id": "Kisah Para Rasul"
+      },
+      "titleGreek": "Πράξεις Ἀποστόλων",
+      "count": 1001,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "file": "books/b51.json"
+    },
+    {
+      "book": "52",
+      "label": {
+        "en": "James",
+        "id": "Yakobus"
+      },
+      "titleGreek": "Ἰακώβου",
+      "count": 108,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "books/b52.json"
+    },
+    {
+      "book": "53",
+      "label": {
+        "en": "1 Peter",
+        "id": "1 Petrus"
+      },
+      "titleGreek": "Πέτρου Α´",
+      "count": 105,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "books/b53.json"
+    },
+    {
+      "book": "54",
+      "label": {
+        "en": "2 Peter",
+        "id": "2 Petrus"
+      },
+      "titleGreek": "Πέτρου Β´",
+      "count": 61,
+      "chapters": [
+        1,
+        2,
+        3
+      ],
+      "file": "books/b54.json"
+    },
+    {
+      "book": "55",
+      "label": {
+        "en": "1 John",
+        "id": "1 Yohanes"
+      },
+      "titleGreek": "Ἰωάννου Α´",
+      "count": 105,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "books/b55.json"
+    },
+    {
+      "book": "56",
+      "label": {
+        "en": "2 John",
+        "id": "2 Yohanes"
+      },
+      "titleGreek": "Ἰωάννου Β´",
+      "count": 13,
+      "chapters": [
+        1
+      ],
+      "file": "books/b56.json"
+    },
+    {
+      "book": "57",
+      "label": {
+        "en": "3 John",
+        "id": "3 Yohanes"
+      },
+      "titleGreek": "Ἰωάννου Γ´",
+      "count": 15,
+      "chapters": [
+        1
+      ],
+      "file": "books/b57.json"
+    },
+    {
+      "book": "58",
+      "label": {
+        "en": "Jude",
+        "id": "Yudas"
+      },
+      "titleGreek": "Ἰούδα",
+      "count": 25,
+      "chapters": [
+        1
+      ],
+      "file": "books/b58.json"
+    },
+    {
+      "book": "59",
+      "label": {
+        "en": "Revelation",
+        "id": "Wahyu"
+      },
+      "titleGreek": "Ἀποκάλυψις Ἰωάννου",
+      "count": 405,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "file": "books/b59.json"
+    },
+    {
+      "book": "60",
+      "label": {
+        "en": "Barnabas",
+        "id": "Surat Barnabas"
+      },
+      "titleGreek": "Βαρναβᾶ ἐπιϲτολή",
+      "count": 194,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "file": "books/b60.json"
+    },
+    {
+      "book": "61",
+      "label": {
+        "en": "Shepherd of Hermas",
+        "id": "Gembala Hermas"
+      },
+      "titleGreek": "Ὁ Ποιμήν τοῦ Ἑρμά",
+      "count": 249,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        65,
+        66,
+        67,
+        68,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "file": "books/b61.json"
+    },
+    {
+      "book": "70",
+      "label": {
+        "en": "Παραλειπομένων Α",
+        "id": "Παραλειπομένων Α"
+      },
+      "titleGreek": "Παραλειπομένων Α",
+      "count": 18,
+      "chapters": [
+        17,
+        18
+      ],
+      "file": "books/b70.json"
+    }
+  ],
+  "notes": "First encoded correction reading; bilingual lexical annotations are separate and incomplete."
+}
