@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="Pembaca Codex Sinaiticus: transkripsi Yunani berdasarkan naskah asli, pelafalan, glosarium interlinear Inggris–Indonesia, dan verifikasi citra manuskrip.">
+  <meta name="theme-color" content="#111d26">
+  <title>Codex Sinaiticus — Atlas Interlinear</title>
+  <style>
+
+:root{--bg:#f8f7f3;--panel:#fffefb;--ink:#15252d;--muted:#69777b;--line:#dddcd4;--accent:#8a5136;--soft:#f5ede5;--sage:#668276;--shadow:0 5px 25px rgba(15,30,30,.04);color-scheme:light}
+:root[data-theme="dark"]{--bg:#111c23;--panel:#1a2931;--ink:#e9eae3;--muted:#a6b3b5;--line:#34444a;--accent:#d99b75;--soft:#2d312e;--sage:#b1ceb6;--shadow:0 5px 30px rgba(0,0,0,.13);color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 system-ui,Arial,sans-serif}button,input,select{font:inherit}button{cursor:pointer}a{color:inherit}a:hover{color:var(--accent)}.site-header{height:88px;display:flex;align-items:center;justify-content:space-between;padding:0 max(5vw,24px);border-bottom:1px solid var(--line);background:var(--panel)}.brand{display:flex;gap:15px;align-items:center}.monogram{width:45px;height:45px;border:1px solid var(--accent);color:var(--accent);display:grid;place-items:center;font:36px Georgia,serif}.brand-overline,.eyebrow{font-size:10px;font-weight:700;letter-spacing:2.5px;color:var(--accent)}.brand-name{font:600 24px/1.05 Georgia,serif;letter-spacing:.1px}.top-links{display:flex;align-items:center;gap:23px}.top-links a{font-size:12px;text-decoration:none}.icon-button{border:1px solid var(--line);background:transparent;color:var(--ink);width:35px;height:35px;border-radius:50%;font-size:20px}main{max-width:1440px;margin:0 auto;padding:0 5vw 60px}.intro{display:grid;grid-template-columns:1fr 280px;gap:55px;padding:78px 0 72px}.intro-copy{max-width:790px}.tiny-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--sage);margin-right:7px}.intro h1{font:500 clamp(43px,5.9vw,86px)/.98 Georgia,'Times New Roman',serif;letter-spacing:-1.4px;margin:18px 0 25px}.intro h1 em{color:var(--accent);font-weight:400}.intro p{font-size:14px;max-width:630px;color:var(--muted);line-height:1.9}.intro p strong{color:var(--ink)}.intro-flags{display:flex;gap:9px;flex-wrap:wrap;margin-top:25px}.intro-flags span{font-size:11px;border:1px solid var(--line);padding:6px 11px}.stats{padding:23px 28px;align-self:center;background:var(--panel);border-top:3px solid var(--accent);box-shadow:var(--shadow)}.stats>div{padding:13px 0;display:flex;flex-direction:column}.stats>div+div{border-top:1px solid var(--line)}.stat-value{font:500 41px/1.1 Georgia,serif}.stat-label{font-size:11px;letter-spacing:.25px;color:var(--muted)}.workspace,.manuscript{background:var(--panel);border:1px solid var(--line);padding:33px;margin-bottom:30px;box-shadow:var(--shadow)}.section-top{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:24px}.section-top h2{font:500 34px/1.1 Georgia,serif;margin:6px 0 0}.eyebrow.small{font-size:9px}.load-pill{color:var(--muted);font-size:11px;border:1px solid var(--line);padding:5px 11px;border-radius:30px}.load-pill.ready{border-color:var(--sage);color:var(--sage)}.load-pill.failed{color:var(--accent)}.reader-controls{display:grid;grid-template-columns:2fr .7fr 1.3fr 1.5fr;gap:12px}.control{display:flex;flex-direction:column;gap:7px}.control label{font-size:10px;text-transform:uppercase;letter-spacing:1px;font-weight:700;color:var(--muted)}.control select,.control input{color:var(--ink);background:var(--bg);border:1px solid var(--line);min-width:0;width:100%;height:47px;border-radius:2px;padding:0 12px;outline-color:var(--accent)}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:24px 0 14px}.crumb{font-size:13px;font-weight:700;color:var(--accent)}.tools{display:flex;gap:6px;flex-wrap:wrap}.quiet-btn,.secondary-btn{background:transparent;color:var(--ink);border:1px solid var(--line);padding:9px 13px;font-size:12px}.quiet-btn:disabled{opacity:.35;cursor:default}.quiet-btn:hover:not(:disabled),.secondary-btn:hover{border-color:var(--accent)}.info-strip{padding:12px 16px;background:var(--soft);border-left:2px solid var(--accent);font-size:11px;line-height:1.8;color:var(--muted)}.info-strip strong{color:var(--ink)}.verse-card{padding:30px 0;border-bottom:1px solid var(--line)}.verse-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.verse-ref{font:500 26px/1.1 Georgia,serif}.verse-head-links{display:flex;flex-wrap:wrap;gap:12px}.verse-head-links a{font-size:11px;text-decoration:none;color:var(--accent);font-weight:600}.greek-line{font:400 clamp(21px,2.4vw,29px)/1.8 Georgia,'Times New Roman',serif;letter-spacing:.2px;margin:14px 0 18px;overflow-wrap:anywhere}.word-scroll{overflow-x:auto;overscroll-behavior-x:contain;border:1px solid var(--line)}.word-table{width:100%;border-collapse:collapse;font-size:12px;table-layout:fixed}.word-table th{background:var(--bg);color:var(--muted);letter-spacing:1px;font-size:9px;text-transform:uppercase;font-weight:700;padding:12px 14px;text-align:left;border-bottom:1px solid var(--line)}.word-table td{padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:middle;overflow-wrap:anywhere}.word-table tr:last-child td{border-bottom:0}.word-table tbody tr:hover{background:var(--bg)}.word-table th:first-child,.word-table td:first-child{width:35%}.word-table th:nth-child(2),.word-table td:nth-child(2){width:21%}.word-table th:nth-child(3),.word-table td:nth-child(3){width:22%}.word-table th:nth-child(4),.word-table td:nth-child(4){width:22%}.greek-cell{font:22px/1.35 Georgia,serif}.pronounce{font-size:11px;color:var(--muted);margin-left:6px;white-space:nowrap}.missing{color:var(--muted);opacity:.8}.word-number{font:10px system-ui,sans-serif;color:var(--muted);display:inline-block;min-width:23px}.verse-note{font-size:10px;color:var(--muted);margin-top:10px}.results-footer{color:var(--muted);font-size:11px;text-align:right;padding:17px 0 3px}.empty-state{background:var(--bg);text-align:center;padding:65px 24px;color:var(--muted);margin-top:20px}.empty-state h3{font:500 27px Georgia,serif;color:var(--ink);margin:0 0 8px}.empty-state p{max-width:630px;margin:8px auto 14px}.empty-state a{color:var(--accent)}.empty-state .secondary-btn{margin:12px}.primary-link{background:var(--accent);color:var(--panel);padding:10px 16px;text-decoration:none;font-size:12px;font-weight:700}.primary-link:hover{color:white;opacity:.85}.muted{color:var(--muted);font-size:12px}.scan-container{margin-top:20px;border:1px solid var(--line);min-height:300px;background:var(--bg)}.scan-placeholder{text-align:center;max-width:500px;padding:30px 20px;margin:0 auto}.scan-symbol{font:67px/1 Georgia,serif;color:var(--accent)}.scan-placeholder h3{font:500 25px/1.2 Georgia,serif;margin:12px}.scan-placeholder p{font-size:12px;color:var(--muted)}.tiny-note{font-size:10px!important}.scan-container iframe{width:100%;height:min(72vh,800px);border:0}.method{padding:35px 0 20px}.method-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}.method article{border-top:1px solid var(--accent);padding-top:13px}.method h3{font:500 24px Georgia,serif;margin:0 0 10px}.method p{font-size:12px;line-height:1.9;color:var(--muted)}footer{padding:32px 5vw;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:10px}footer a{text-decoration:underline}.search-hit{background:var(--soft)}.status-warn{color:var(--accent)}.btn-row{display:flex;justify-content:center;flex-wrap:wrap;gap:10px}
+@media(max-width:1050px){.intro{grid-template-columns:1fr;gap:26px;padding:56px 0}.stats{width:100%;display:grid;grid-template-columns:repeat(3,1fr);padding:15px 22px}.stats>div+div{border-top:0;border-left:1px solid var(--line);padding-left:20px}.reader-controls{grid-template-columns:1.4fr .7fr .9fr}.field-query{grid-column:1/-1}.workspace,.manuscript{padding:23px}}
+@media(max-width:650px){.site-header{height:76px;padding:0 16px}.brand{gap:9px}.monogram{width:34px;height:36px;font-size:28px}.brand-name{font-size:19px}.brand-overline{font-size:8px;letter-spacing:1px}.top-links a{display:none}.top-links{gap:5px}main{padding:0 14px 30px}.intro{padding:38px 4px}.intro h1{font-size:clamp(43px,11vw,62px);line-height:.99}.intro p{font-size:12px}.stats{gap:0;padding:12px 7px}.stats>div{padding:8px!important;min-width:0}.stat-value{font-size:27px}.stat-label{font-size:9px;line-height:1.35}.workspace,.manuscript{padding:15px;margin-bottom:17px}.section-top h2{font-size:29px}.load-pill{font-size:9px;padding:4px 7px}.reader-controls{grid-template-columns:1fr 1fr;gap:10px}.field-book,.field-query{grid-column:1/-1}.control select,.control input{font-size:12px;height:42px}.toolbar{align-items:flex-start;flex-direction:column}.tools{width:100%;justify-content:space-between}.quiet-btn{padding:7px 8px;font-size:10px}.verse-card{padding:24px 0}.verse-ref{font-size:23px}.greek-line{font-size:23px}.word-table{min-width:510px}.word-table th,.word-table td{padding:8px 9px}.greek-cell{font-size:21px}.pronounce{display:inline-block;margin-left:2px}.scan-container{min-height:240px}.scan-container iframe{height:70vh}.method-grid{grid-template-columns:1fr;gap:10px}.primary-link{padding:8px 9px;font-size:10px}.manuscript .section-top{align-items:flex-start}footer{padding:24px 18px}}
+
+/* Clear provenance and focus navigation for multilingual research */
+.word-link {color:inherit;text-decoration:none;border-bottom:1px dotted var(--accent)}
+.word-link:hover,.word-link:focus-visible {color:var(--accent);border-bottom-style:solid}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible {outline:2px solid var(--accent);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+</style>
+  
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand"><div class="monogram" aria-hidden="true">א</div><div><div class="brand-overline">DIGITAL MANUSCRIPT ATLAS</div><div class="brand-name">Codex Sinaiticus</div></div></div>
+    <nav class="top-links"><a href="https://codexsinaiticus.org/en/manuscript.aspx" target="_blank" rel="noopener noreferrer">Naskah resmi ↗</a><a href="https://github.com/itsee-birmingham/codex-sinaiticus" target="_blank" rel="noopener noreferrer">Data XML ↗</a><button id="themeToggle" class="icon-button" aria-label="Ganti tema" title="Ganti tema">◐</button></nav>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="mainHeading"><div class="intro-copy"><div class="eyebrow"><span class="tiny-dot"></span> EDISI TEKS DIPLOMATIK • INTERLINEAR</div><h1 id="mainHeading">Membaca naskah.<br><em>Memeriksa setiap kata.</em></h1><p>Jelajahi seluruh teks <strong>yang masih terlestarikan</strong> dalam Codex Sinaiticus. Bandingkan transkripsi Yunani dengan folio asli; lihat transliterasi dan glosa leksikal Inggris–Indonesia tanpa mencampuradukkan teks manuskrip dengan terjemahan.</p><div class="intro-flags"><span>Abad IV M</span><span>Yunani</span><span>Transkripsi ilmiah</span><span>Akses nonkomersial</span></div></div><aside class="stats" aria-label="Informasi korpus"><div><span class="stat-value" id="totalBooks">—</span><span class="stat-label">Kitab / karya terindeks</span></div><div><span class="stat-value" id="totalVerses">—</span><span class="stat-label">Unit ayat terlestarikan</span></div><div><span class="stat-value" id="totalWords">—</span><span class="stat-label">Token dalam transkripsi</span></div></aside></section>
+    <section class="workspace" aria-labelledby="readerHeading"><div class="section-top"><div><div class="eyebrow small">01 / TELUSURI KORPUS</div><h2 id="readerHeading">Pembaca interlinear</h2></div><div id="loadStatus" class="load-pill" role="status" aria-live="polite">Memeriksa data…</div></div>
+      <div class="reader-controls">
+        <div class="control field-book"><label for="bookSelect">Kitab / karya</label><select id="bookSelect" aria-label="Pilih kitab"><option value="">Memuat daftar…</option></select></div>
+        <div class="control"><label for="chapterSelect">Pasal</label><select id="chapterSelect"><option value="">—</option></select></div>
+        <div class="control"><label for="verseSelect">Ayat</label><select id="verseSelect"><option value="all">Semua ayat pasal</option></select></div>
+        <div class="control field-query"><label for="wordSearch">Cari dalam pasal</label><input type="search" id="wordSearch" placeholder="Yunani / nomor ayat…" autocomplete="off"></div>
+      </div>
+      <div class="toolbar"><div class="crumb" id="breadcrumb">Pilih kitab untuk membaca transkripsi</div><div class="tools"><button id="prevBtn" class="quiet-btn" title="Pasal sebelumnya">← Sebelumnya</button><button id="nextBtn" class="quiet-btn" title="Pasal berikutnya">Berikutnya →</button><button id="csvBtn" class="quiet-btn" title="Ekspor glosarium ayat yang ditampilkan">↓ CSV</button></div></div>
+      <div class="info-strip"><strong>Aturan edisi:</strong> Teks Yunani = transkripsi proyek resmi, pembacaan pertama untuk koreksi; <strong>pelafalan</strong> = transliterasi sederhana; <strong>glosa</strong> = petunjuk leksikal, <em>bukan</em> terjemahan kontekstual yang tervalidasi. Tanda — berarti belum tersedia, bukan diterjemahkan secara spekulatif.</div>
+      <div id="results" class="results" aria-live="polite"><div class="empty-state">Memuat korpus…</div></div>
+      <div class="results-footer" id="resultsFooter"></div>
+    </section>
+    <section class="manuscript" aria-labelledby="facsimileHeading"><div class="section-top"><div><div class="eyebrow small">02 / VERIFIKASI SUMBER</div><h2 id="facsimileHeading">Folio manuskrip asli</h2></div><a id="officialLink" class="primary-link" href="https://codexsinaiticus.org/en/manuscript.aspx" target="_blank" rel="noopener noreferrer">Lihat halaman resmi ↗</a></div><p id="scanCaption" class="muted">Pilih ayat di atas untuk membuka halaman naskah asli melalui situs Codex Sinaiticus Project.</p><div class="scan-container" id="scanContainer"><div class="scan-placeholder"><div class="scan-symbol">א</div><h3>Verifikasi langsung pada sumber</h3><p>Situs resmi menampilkan citra digital dan transkripsi yang saling terhubung. Pembaca ini tidak menyalin atau mengklaim kepemilikan citra manuskrip.</p><button class="secondary-btn" id="scanBtn">Muat penampil resmi</button><p class="tiny-note">Jika situs resmi melarang penyematan, gunakan tautan “Lihat halaman resmi” di atas.</p></div></div></section>
+    <section class="method"><div class="eyebrow small">03 / METODE DAN KETERBATASAN</div><div class="method-grid"><article><h3>Apa yang termasuk?</h3><p>Semua ayat yang terdapat dalam XML sumber, termasuk Septuaginta yang selamat, Perjanjian Baru, Surat Barnabas, dan Gembala Hermas. Tidak ada ayat yang direka untuk mengisi bagian manuskrip yang hilang.</p></article><article><h3>Ketelitian edisi</h3><p>Nomor kitab mengikuti indeks Codex Sinaiticus Project. Nomina sacra, ejaan, bentuk huruf ϲ, serta perbedaan bacaan tidak diam-diam diganti dengan teks Alkitab modern. Pembacaan alternatif perlu diperiksa di penampil resmi.</p></article><article><h3>Terjemahan per kata</h3><p>Transliterasi tersedia untuk setiap token Yunani. Glosa Inggris dan Indonesia hanya tampil untuk bentuk yang dianotasi dalam kamus proyek; cakupan glosa ditampilkan sebagai persentase setiap pasal. Kosakata yang belum teranotasi tidak ditebak. Tautan kata mengarah ke Wiktionary untuk penelitian lanjutan. Konteks dan perubahan kasus/tenses dapat mengubah makna.</p></article></div></section>
+  </main>
+  <footer><span>© Proyek pembaca interlinear untuk pendidikan dan penelitian nonkomersial.</span><span>Transkripsi: <a href="https://codexsinaiticus.org/en/project/transcription_download.aspx" target="_blank" rel="noopener noreferrer">Codex Sinaiticus Project</a> • <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 3.0</a></span></footer>
+<script>window.__CODEX_EMBEDDED_GLOSSARY__={"και":{"en":"and","id":"dan"},"δε":{"en":"but / and","id":"tetapi / dan"},"γαρ":{"en":"for / because","id":"sebab / karena"},"ο":{"en":"the (masculine singular)","id":"artikel tertentu (maskulin tunggal)"},"η":{"en":"the (feminine singular)","id":"artikel tertentu (feminin tunggal)"},"το":{"en":"the (neuter singular)","id":"artikel tertentu (netral tunggal)"},"τον":{"en":"the (masculine accusative)","id":"artikel tertentu (maskulin akusatif)"},"την":{"en":"the (feminine accusative)","id":"artikel tertentu (feminin akusatif)"},"του":{"en":"of the / the (genitive)","id":"dari / milik (genitif)"},"τη":{"en":"the (feminine dative)","id":"artikel tertentu (feminin datif)"},"τω":{"en":"the (masculine/neuter dative)","id":"artikel tertentu (maskulin/netral datif)"},"των":{"en":"of the (plural genitive)","id":"dari / milik (genitif jamak)"},"τοισ":{"en":"to the (plural dative)","id":"kepada (datif jamak)"},"τα":{"en":"those / the (neuter plural)","id":"yang / artikel netral jamak"},"τασ":{"en":"the (feminine plural accusative)","id":"artikel feminin jamak akusatif"},"τουσ":{"en":"the (masculine plural accusative)","id":"artikel maskulin jamak akusatif"},"οι":{"en":"the (masculine plural)","id":"artikel maskulin jamak"},"αι":{"en":"the (feminine plural)","id":"artikel feminin jamak"},"εν":{"en":"in / among","id":"di / dalam / di antara"},"εισ":{"en":"into / to","id":"ke / menuju"},"εκ":{"en":"out of / from","id":"dari / keluar dari"},"εξ":{"en":"out of / from","id":"dari / keluar dari"},"απο":{"en":"from / away from","id":"dari / menjauh dari"},"δια":{"en":"through / because of","id":"melalui / karena"},"προσ":{"en":"to / toward","id":"kepada / menuju"},"επι":{"en":"on / upon / at","id":"di atas / pada"},"κατα":{"en":"according to / against","id":"menurut / melawan"},"περι":{"en":"concerning / around","id":"tentang / di sekitar"},"μετα":{"en":"with / after","id":"bersama / setelah"},"υπερ":{"en":"for / on behalf of","id":"bagi / demi"},"υπο":{"en":"under / by","id":"di bawah / oleh"},"παρα":{"en":"beside / from","id":"di samping / dari"},"ωσ":{"en":"as / like","id":"sebagai / seperti"},"ου":{"en":"not","id":"tidak"},"ουκ":{"en":"not","id":"tidak"},"ουχ":{"en":"not","id":"tidak"},"μη":{"en":"not / lest","id":"jangan / tidak"},"μην":{"en":"truly / surely","id":"sungguh / pasti"},"ναι":{"en":"yes","id":"ya"},"οτι":{"en":"that / because","id":"bahwa / karena"},"ινα":{"en":"so that / in order that","id":"agar / supaya"},"εαν":{"en":"if","id":"jika"},"ει":{"en":"if / whether","id":"jika / apakah"},"εστιν":{"en":"is / exists","id":"adalah / ada"},"εστι":{"en":"is","id":"adalah"},"ην":{"en":"was","id":"adalah (lampau)"},"ειμι":{"en":"I am","id":"aku adalah"},"εισιν":{"en":"are","id":"adalah (jamak)"},"εγω":{"en":"I","id":"aku / saya"},"εμου":{"en":"of me","id":"milikku"},"μοι":{"en":"to me / for me","id":"kepadaku / bagiku"},"μου":{"en":"my / of me","id":"milikku / dariku"},"σου":{"en":"your / of you","id":"milikmu / darimu"},"σοι":{"en":"to you","id":"kepadamu"},"συ":{"en":"you (singular)","id":"engkau / kamu"},"υμιν":{"en":"to you (plural)","id":"kepada kalian"},"υμων":{"en":"of you (plural)","id":"milik kalian"},"ημιν":{"en":"to us","id":"kepada kami / kita"},"ημων":{"en":"of us","id":"milik kami / kita"},"ημασ":{"en":"us (object)","id":"kami / kita (objek)"},"αυτου":{"en":"his / of him","id":"miliknya / darinya"},"αυτον":{"en":"him / it","id":"dia / itu (objek)"},"αυτοισ":{"en":"to them","id":"kepada mereka"},"αυτων":{"en":"of them","id":"milik mereka"},"αυτοσ":{"en":"he himself","id":"dia sendiri"},"αυτη":{"en":"this / she","id":"ini / dia (feminin)"},"αυτο":{"en":"it itself","id":"itu sendiri"},"τουτο":{"en":"this","id":"ini"},"τουτον":{"en":"this (object)","id":"ini (objek)"},"τουτων":{"en":"of these","id":"dari hal-hal ini"},"ταυτα":{"en":"these things","id":"hal-hal ini"},"ουτοσ":{"en":"this one","id":"orang / hal ini"},"εκεινοσ":{"en":"that one","id":"orang / hal itu"},"οσ":{"en":"who / which","id":"yang / siapa"},"ησ":{"en":"whose / which","id":"milik siapa / yang"},"τισ":{"en":"who? / someone","id":"siapa? / seseorang"},"τι":{"en":"what? / something","id":"apa? / sesuatu"},"παντεσ":{"en":"all / everyone","id":"semua / setiap orang"},"πασ":{"en":"all / every","id":"semua / setiap"},"πασα":{"en":"all / every (f.)","id":"semua / setiap (f.)"},"πολυσ":{"en":"much / many","id":"banyak"},"πολλα":{"en":"many things","id":"banyak hal"},"καλοσ":{"en":"good / beautiful","id":"baik / indah"},"αγαθοσ":{"en":"good","id":"baik"},"μεγασ":{"en":"great / large","id":"besar / agung"},"θεοσ":{"en":"God","id":"Tuhan"},"θσ":{"en":"God (sacred abbreviation)","id":"Tuhan (singkatan suci)"},"θυ":{"en":"God (sacred abbreviation)","id":"Tuhan (singkatan suci)"},"θω":{"en":"God (sacred abbreviation)","id":"Tuhan (singkatan suci)"},"κσ":{"en":"Lord (sacred abbreviation)","id":"Tuhan (singkatan suci)"},"κυ":{"en":"Lord (sacred abbreviation)","id":"Tuhan (singkatan suci)"},"κν":{"en":"Lord (sacred abbreviation)","id":"Tuhan (singkatan suci)"},"ισ":{"en":"Jesus (sacred abbreviation)","id":"Yesus (singkatan suci)"},"ιυ":{"en":"Jesus (sacred abbreviation)","id":"Yesus (singkatan suci)"},"ιν":{"en":"Jesus (sacred abbreviation)","id":"Yesus (singkatan suci)"},"χσ":{"en":"Christ (sacred abbreviation)","id":"Kristus (singkatan suci)"},"χυ":{"en":"Christ (sacred abbreviation)","id":"Kristus (singkatan suci)"},"χν":{"en":"Christ (sacred abbreviation)","id":"Kristus (singkatan suci)"},"πνα":{"en":"spirit (sacred abbreviation)","id":"roh (singkatan suci)"},"πνσ":{"en":"spirit (sacred abbreviation)","id":"roh (singkatan suci)"},"πνι":{"en":"spirit (sacred abbreviation)","id":"roh (singkatan suci)"},"υιοσ":{"en":"son","id":"anak laki-laki"},"υιου":{"en":"of a son","id":"milik anak laki-laki"},"πατηρ":{"en":"father","id":"ayah / bapa"},"μητηρ":{"en":"mother","id":"ibu"},"ανθρωποσ":{"en":"human / man","id":"manusia / laki-laki"},"ανθρωπων":{"en":"of people","id":"dari manusia"},"γυνη":{"en":"woman / wife","id":"perempuan / istri"},"τεκνον":{"en":"child","id":"anak"},"υδατοσ":{"en":"water (genitive)","id":"air (genitif)"},"υδωρ":{"en":"water","id":"air"},"γη":{"en":"earth / land","id":"bumi / tanah"},"γησ":{"en":"of earth / land","id":"dari bumi / tanah"},"ουρανοσ":{"en":"heaven / sky","id":"langit / surga"},"ουρανω":{"en":"heaven (dative)","id":"langit (datif)"},"κοσμοσ":{"en":"world","id":"Dunia"},"ζωη":{"en":"life","id":"kehidupan"},"λογοσ":{"en":"word / message","id":"firman / kata / pesan"},"λογον":{"en":"word / message (object)","id":"kata / firman / pesan (objek)"},"λογου":{"en":"of a word / message","id":"dari kata / pesan"},"γραφη":{"en":"scripture / writing","id":"kitab suci / tulisan"},"γραφαισ":{"en":"in writings","id":"pada tulisan-tulisan"},"πιστισ":{"en":"faith / trust","id":"iman / kepercayaan"},"χαρισ":{"en":"grace / favor","id":"anugerah / kemurahan"},"αληθεια":{"en":"truth","id":"kebenaran"},"αγαπη":{"en":"love","id":"kasih / cinta"},"αμαρτια":{"en":"sin","id":"dosa"},"αμαρτιασ":{"en":"of sin / sins","id":"dosa (genitif)"},"δυναμισ":{"en":"power / capability","id":"kuasa / kemampuan"},"κυριοσ":{"en":"lord / master","id":"tuan / penguasa"},"ιωαννησ":{"en":"John","id":"Yohanes"},"παυλοσ":{"en":"Paul","id":"Paulus"},"ιουδασ":{"en":"Judas / Judah","id":"Yudas / Yehuda"},"μαθθαιον":{"en":"Matthew","id":"Matius"},"ιησουσ":{"en":"Jesus","id":"Yesus"},"χριστοσ":{"en":"Christ / anointed","id":"Kristus / yang diurapi"},"αρχη":{"en":"beginning / rule","id":"permulaan / pemerintahan"},"εγενετο":{"en":"became / happened","id":"menjadi / terjadi"},"ελαβεν":{"en":"he/she/it received","id":"dia menerima"},"ειπεν":{"en":"he/she/it said","id":"dia berkata"},"λεγει":{"en":"he/she/it says","id":"dia berkata"},"λεγοντεσ":{"en":"saying (plural)","id":"sambil berkata"},"ειδεν":{"en":"he/she/it saw","id":"dia melihat"},"εποιησεν":{"en":"he/she/it made","id":"dia membuat"},"εχει":{"en":"he/she/it has","id":"dia mempunyai"},"εχω":{"en":"I have","id":"aku mempunyai"},"γενεσεωσ":{"en":"of origin / genealogy","id":"dari asal-usul / silsilah"},"βιβλοσ":{"en":"book / scroll","id":"kitab / gulungan"},"ευαγγελιον":{"en":"good news / gospel","id":"kabar baik / Injil"},"αποστολοσ":{"en":"apostle / envoy","id":"rasul / utusan"},"δεξια":{"en":"right side / right hand","id":"sisi kanan / tangan kanan"},"αγιοσ":{"en":"holy","id":"kudus"},"ημερα":{"en":"day","id":"hari"},"νυξ":{"en":"night","id":"malam"},"χρονοσ":{"en":"time","id":"waktu"},"νυν":{"en":"now","id":"sekarang"},"τοτε":{"en":"then / at that time","id":"kemudian / waktu itu"},"παλιν":{"en":"again","id":"lagi / kembali"},"ετι":{"en":"still / yet","id":"masih / belum"},"ουδε":{"en":"neither / nor","id":"tidak juga"},"ουτε":{"en":"neither / nor","id":"tidak pula"},"ουδεν":{"en":"nothing","id":"tidak ada apa-apa"},"μεν":{"en":"indeed / on the one hand","id":"memang / di satu sisi"},"ουν":{"en":"therefore / then","id":"karena itu / maka"},"αλλα":{"en":"but / rather","id":"tetapi / melainkan"},"καιροσ":{"en":"time / season","id":"waktu / masa"},"βασιλεια":{"en":"kingdom / reign","id":"kerajaan / pemerintahan"}};</script>
+<script>
+(() => {
+'use strict';
+const OFFICIAL = 'https://codexsinaiticus.org/en/manuscript.aspx';
+const XML_REMOTE = 'https://raw.githubusercontent.com/itsee-birmingham/codex-sinaiticus/main/sinaiticus_full_v195.xml';
+const otNames = {'1':['Genesis','Kejadian'],'2':['Exodus','Keluaran'],'3':['Leviticus','Imamat'],'4':['Numbers','Bilangan'],'5':['Deuteronomy','Ulangan'],'6':['Joshua','Yosua'],'7':['Judges','Hakim-hakim'],'8':['Ruth','Rut'],'9':['1 Kingdoms','1 Kerajaan'],'10':['2 Kingdoms','2 Kerajaan'],'11':['3 Kingdoms','3 Kerajaan'],'12':['4 Kingdoms','4 Kerajaan'],'13':['1 Chronicles','1 Tawarikh'],'14':['2 Chronicles','2 Tawarikh'],'26':['Psalms','Mazmur'],'27':['Proverbs','Amsal'],'32':['Job','Ayub']};
+const names = [
+ ['Matthew','Matius'],['Mark','Markus'],['Luke','Lukas'],['John','Yohanes'],
+ ['Romans','Roma'],['1 Corinthians','1 Korintus'],['2 Corinthians','2 Korintus'],['Galatians','Galatia'],
+ ['Ephesians','Efesus'],['Philippians','Filipi'],['Colossians','Kolose'],['1 Thessalonians','1 Tesalonika'],
+ ['2 Thessalonians','2 Tesalonika'],['Hebrews','Ibrani'],['1 Timothy','1 Timotius'],['2 Timothy','2 Timotius'],
+ ['Titus','Titus'],['Philemon','Filemon'],['Acts','Kisah Para Rasul'],['James','Yakobus'],
+ ['1 Peter','1 Petrus'],['2 Peter','2 Petrus'],['1 John','1 Yohanes'],['2 John','2 Yohanes'],
+ ['3 John','3 Yohanes'],['Jude','Yudas'],['Revelation','Wahyu'],['Barnabas','Surat Barnabas'],
+ ['Shepherd of Hermas','Gembala Hermas']
+];
+const $ = id => document.getElementById(id);
+let manifest = null;
+const books = new Map();
+let glossary = {};
+let currentVerses = [];
+let selectedVerse = null;
+let scanVisible = false;
+
+const GreekMap = {
+ 'α':'a','β':'b','γ':'g','δ':'d','ε':'e','ζ':'z','η':'ē','θ':'th','ι':'i',
+ 'κ':'k','λ':'l','μ':'m','ν':'n','ξ':'x','ο':'o','π':'p','ρ':'r','σ':'s','ς':'s',
+ 'ϲ':'s','τ':'t','υ':'u','φ':'ph','χ':'ch','ψ':'ps','ω':'ō','ϝ':'w','ϙ':'q','ϛ':'st'
+};
+const normalizeGreek = text => (text||'').toLocaleLowerCase('el').replace(/ϲ/g,'σ')
+ .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ς/g,'σ')
+ .replace(/[^\p{Script=Greek}]/gu,'');
+function transliterate(text) {
+ return (text||'').toLocaleLowerCase('el').normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+   .split('').map(ch => GreekMap[ch] ?? (/[a-z0-9]/i.test(ch)?ch:'' )).join('');
+}
+function esc(text){return String(text ?? '').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));}
+function verseUrl(v){return `${OFFICIAL}?book=${encodeURIComponent(v.b)}&chapter=${encodeURIComponent(v.c)}&verse=${encodeURIComponent(v.v)}`;}
+function pageUrl(p){const m=String(p||'').match(/^(\d+)-(\d+)([rv])$/);return m ? `${OFFICIAL}?quireno=${m[1]}&foliono=${m[2]}&side=${m[3]}` : ''}
+function pretty(book){return (manifest?.books.find(b=>b.book===String(book))?.label?.id)||`Kitab ${book}`;}
+function stateStatus(s,kind=''){const e=$('loadStatus');e.textContent=s;e.className='load-pill '+kind;}
+function formatCount(n){return Number(n||0).toLocaleString('id-ID');}
+function blank(message){$('results').innerHTML=`<div class="empty-state">${message}</div>`;}
+function nextHash(){const b=$('bookSelect').value,c=$('chapterSelect').value,v=$('verseSelect').value;location.hash=`book=${encodeURIComponent(b)}&chapter=${encodeURIComponent(c)}&verse=${encodeURIComponent(v)}`;}
+function hashState(){const v=new URLSearchParams(location.hash.slice(1));return {book:v.get('book'),chapter:v.get('chapter'),verse:v.get('verse')};}
+async function getJSON(url){const r=await fetch(url,{cache:'no-cache'});if(!r.ok)throw Error(`${r.status} ${url}`);return r.json();}
+
+function openDB(){return new Promise((resolve,reject)=>{if(!('indexedDB' in window)){resolve(null);return;}const req=indexedDB.open('codex-atlas-corpus-v2',1);req.onupgradeneeded=()=>req.result.createObjectStore('corpus');req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);});}
+async function cachePut(key,val){try{const db=await openDB();if(!db)return;await new Promise((resolve,reject)=>{const tx=db.transaction('corpus','readwrite');tx.objectStore('corpus').put(val,key);tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);});db.close();}catch(e){console.warn('Offline cache unavailable',e);}}
+async function cacheGet(key){try{const db=await openDB();if(!db)return null;const result=await new Promise((resolve,reject)=>{const req=db.transaction('corpus','readonly').objectStore('corpus').get(key);req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);});db.close();return result||null;}catch{return null;}}
+async function readBook(id){if(books.has(id))return books.get(id);let data;try{data=await getJSON(`./data/books/b${id}.json`);cachePut(`book-${id}`,data);}catch{data=await cacheGet(`book-${id}`);}if(!Array.isArray(data))throw new Error('Book data not yet built / imported');books.set(id,data);return data;}
+
+function populateBooks(){
+ const select=$('bookSelect');select.replaceChildren();
+ for(const book of manifest.books){const opt=document.createElement('option');opt.value=book.book;opt.textContent=`${book.label?.id || `Kitab ${book.book}`}  ·  ${formatCount(book.count)} ayat`;select.append(opt);}
+ $('totalBooks').textContent=formatCount(manifest.books.length);
+ $('totalVerses').textContent=formatCount(manifest.totals?.verses ?? manifest.books.reduce((s,b)=>s+b.count,0));
+ $('totalWords').textContent=formatCount(manifest.totals?.tokens);
+ const hash=hashState();let b=hash.book;if(!manifest.books.find(x=>x.book===b))b=manifest.books[0]?.book;
+ select.value=b||'';
+ selectBook(hash.chapter,hash.verse).catch(err=>showError(err));
+}
+async function selectBook(wantChapter=null,wantVerse=null){
+ const id=$('bookSelect').value;if(!id)return;
+ let data;
+ try{data=await readBook(id);}catch(e){showError(e);return;}
+ if($('bookSelect').value !== id)return;
+ const allCh=Array.from(new Set(data.map(v=>String(v.c))));
+ const select=$('chapterSelect');select.replaceChildren();
+ for(const chapter of allCh){const option=document.createElement('option');option.value=chapter;option.textContent=chapter;select.append(option);}
+ const target=String(wantChapter||'');select.value=allCh.includes(target)?target:allCh[0];
+ selectChapter(wantVerse);
+}
+function selectChapter(wantVerse=null){
+ const id=$('bookSelect').value,c=$('chapterSelect').value;
+ const data=books.get(id)||[];
+ const verses=data.filter(v=>String(v.c)===String(c));
+ const select=$('verseSelect');select.replaceChildren(new Option('Seluruh ayat dalam pasal','all'));
+ for(const item of verses) select.add(new Option(item.v,item.v));
+ select.value=verses.some(v=>String(v.v)===String(wantVerse))?String(wantVerse):'all';
+ render();
+}
+function chooseVerse(v){selectedVerse=v;scanVisible=false;
+ const page=v?.pages?.[0];const url=page ? pageUrl(page):v?verseUrl(v):OFFICIAL;
+ $('officialLink').href=url;
+ $('scanCaption').textContent=v ? `${pretty(v.b)} ${v.c}:${v.v} · ${page ? `Folio ${page} · `:''}citra disajikan langsung oleh Codex Sinaiticus Project.` : 'Pilih ayat di atas untuk membuka scan resmi.';
+ const viewer=$('scanContainer');viewer.innerHTML=`<div class="scan-placeholder"><div class="scan-symbol">א</div><h3>Periksa bacaan pada folio</h3><p>Buka penampil resmi untuk melihat gambar naskah dan menelusuri koreksi penyalin. Tautan verifikasi per ayat tersedia di setiap bagian.</p><button class="secondary-btn" id="scanBtn">Muat penampil resmi</button><p class="tiny-note">Situs resmi mungkin mencegah tampilan dalam iframe. Tautan di atas tetap dapat dibuka.</p></div>`;
+ $('scanBtn').addEventListener('click',()=>loadScan());
+}
+function loadScan(){if(!selectedVerse)return;const target=selectedVerse.pages?.[0] ? pageUrl(selectedVerse.pages[0]) : verseUrl(selectedVerse);
+ const holder=$('scanContainer');holder.replaceChildren();const iframe=document.createElement('iframe');iframe.src=target;iframe.title=`Citra manuskrip resmi ${pretty(selectedVerse.b)} ${selectedVerse.c}:${selectedVerse.v}`;iframe.loading='lazy';iframe.referrerPolicy='strict-origin-when-cross-origin';holder.appendChild(iframe);
+ scanVisible=true;
+}
+function wordLooksGreek(w){return /\p{Script=Greek}/u.test(w);}
+function getGloss(w){return glossary[normalizeGreek(w)]||null;}
+function dictionaryUrl(w){return 'https://en.wiktionary.org/wiki/'+encodeURIComponent(w);}
+function wordRows(v){let out='';let n=0;for(const word of v.w){if(!wordLooksGreek(word))continue;n++;
+ const key=normalizeGreek(word),anno=getGloss(word);
+ out+=`<tr><td class="greek-cell"><span class="word-number">${n}.</span><a class="word-link" title="Cari bentuk kata ini di Wiktionary (leksikon eksternal)" href="${dictionaryUrl(word)}" target="_blank" rel="noopener noreferrer">${esc(word)}</a> <span class="pronounce">{${esc(transliterate(word))}}</span></td><td>${esc(transliterate(word))}</td><td>${anno?.en?esc(anno.en):'<span class="missing">— belum ditinjau</span>'}</td><td>${anno?.id?esc(anno.id):'<span class="missing">— belum ditinjau</span>'}</td></tr>`;
+ }
+ return out||'<tr><td colspan="4" class="missing">Tidak ada token Yunani yang dapat ditampilkan.</td></tr>';
+}
+function render(){
+ const id=$('bookSelect').value,c=$('chapterSelect').value,verse=$('verseSelect').value,q=$('wordSearch').value.trim();
+ const data=books.get(id)||[];const base=data.filter(v=>String(v.c)===String(c));
+ let selected=(verse==='all'?base:base.filter(v=>String(v.v)===verse));
+ if(q){const lookup=q.replace(/\s+/g,'').toLowerCase();const gr=normalizeGreek(q);selected=selected.filter(v=>v.w.some(w=>normalizeGreek(w).includes(gr)&&gr) || String(v.v)===lookup || v.w.join(' ').toLowerCase().includes(lookup));}
+ currentVerses=selected;
+ $('breadcrumb').textContent=`${pretty(id)} · Pasal ${c} · ${selected.length} ayat ditampilkan`;
+ $('prevBtn').disabled=!$('chapterSelect').selectedIndex;
+ $('nextBtn').disabled=$('chapterSelect').selectedIndex===$('chapterSelect').options.length-1;
+ const html=selected.map(v=>{
+  const link=verseUrl(v), p=v.pages?.[0], pLink=pageUrl(p);
+  const title=`${pretty(v.b)} ${v.c}:${v.v}`;
+  const greek=v.w.join(' ').replace(/\s+([,.;··])/g,'$1');
+  return `<article class="verse-card" id="verse-${esc(v.c)}-${esc(v.v)}"><div class="verse-head"><div class="verse-ref">${esc(title)}</div><div class="verse-head-links"><a href="${esc(link)}" target="_blank" rel="noopener noreferrer">Verifikasi ayat ↗</a>${pLink?`<a href="${esc(pLink)}" target="_blank" rel="noopener noreferrer">Folio ${esc(p)} ↗</a>`:''}<a href="#" class="select-scan" data-v="${esc(v.v)}">Tampilkan folio ↓</a></div></div><div class="greek-line" lang="grc">${esc(greek)}</div><div class="word-scroll"><table class="word-table"><thead><tr><th>Yunani &amp; pelafalan</th><th>Transliterasi</th><th>English · lexical gloss</th><th>Indonesia · glosa</th></tr></thead><tbody>${wordRows(v)}</tbody></table></div><div class="verse-note">ID transkripsi: ${esc(v.id)} · ${v.pages?.length?esc(v.pages.join(', ')):'lokasi folio tidak tersedia pada XML'}</div></article>`;
+ }).join('');
+ $('results').innerHTML=html||'<div class="empty-state"><h3>Tidak ada kecocokan</h3><p>Coba cari dengan kata Yunani, ejaan lain, atau tampilkan semua ayat. Ayat yang tidak terlestarikan tidak ditambahkan ke basis data.</p></div>';
+ const visibleWords=selected.flatMap(v=>v.w.filter(wordLooksGreek));
+ const annotated=visibleWords.filter(w=>{const g=getGloss(w);return !!(g?.en && g?.id);}).length;
+ $('resultsFooter').textContent=`${formatCount(selected.length)} ayat · ${formatCount(visibleWords.length)} token Yunani · ${visibleWords.length?Math.round(annotated/visibleWords.length*100):0}% memiliki glosa Inggris–Indonesia`;
+ $('results').querySelectorAll('.select-scan').forEach(el=>el.addEventListener('click',event=>{event.preventDefault();const v=selected.find(x=>String(x.v)===el.dataset.v);chooseVerse(v);$('facsimileHeading').scrollIntoView({behavior:'smooth',block:'start'});}));
+ chooseVerse(selected[0]||base[0]||null);
+}
+function showError(error){stateStatus('Data belum tersedia','failed');console.error(error);
+ blank(`<h3>Data korpus belum diimpor</h3><p>Struktur pembaca sudah tersedia, tetapi berkas JSON seluruh manuskrip belum ditemukan. Untuk memuat <strong>seluruh transkripsi yang masih terlestarikan</strong>, unduh XML resmi melalui tombol berikut (sekitar 50 MB, lebih cocok pada desktop), atau jalankan build otomatis GitHub Actions dari repositori proyek.</p><div class="btn-row"><button class="secondary-btn" id="remoteImport">Ambil seluruh XML secara daring</button><label class="secondary-btn" for="xmlFile" style="cursor:pointer">Impor XML dari perangkat</label><input id="xmlFile" type="file" accept=".xml,text/xml,application/xml" hidden></div><p><a href="https://github.com/itsee-birmingham/codex-sinaiticus" target="_blank" rel="noopener">Unduh berkas sumber XML resmi ↗</a></p>`);
+ $('remoteImport')?.addEventListener('click',importRemote);$('xmlFile')?.addEventListener('change',e=>{if(e.target.files[0])importFile(e.target.files[0]);});
+}
+function parseImportedXML(xmlString){
+ const doc=new DOMParser().parseFromString(xmlString,'application/xml');
+ if(doc.querySelector('parsererror'))throw Error('XML gagal diparse. Pastikan memakai berkas XML asli Codex Sinaiticus Project (bukan ZIP).');
+ let page=null;const verseByBook=new Map();const bookTitles=new Map();let n=0;
+ // Iterate source elements in documentary order; do not infer absent verses.
+ const elements=doc.getElementsByTagName('*');
+ for(const el of elements){const tag=el.localName;
+  if(tag==='pb'){const id=el.getAttribute('id')||el.getAttribute('xml:id')||'';const m=id.match(/^S-(\d+)-(\d+)([rv])(?:$|-)/i);if(m)page=`${+m[1]}-${+m[2]}${m[3].toLowerCase()}`;}
+  if(tag==='note' && el.getAttribute('type')==='booktitle') {
+    const bookDiv=el.closest('div[type=book]');
+    const num=(bookDiv?.getAttribute('n')||bookDiv?.getAttribute('id')||'').match(/\d+/)?.[0];
+    if(num && el.textContent.trim())bookTitles.set(String(+num),el.textContent.trim().replace(/\s+/g,' '));
+  }
+  if(tag!=='ab')continue;
+  const vid=el.getAttribute('id')||el.getAttribute('xml:id')||'';
+  if(!vid.startsWith('V-'))continue;
+  const nums=(vid.match(/\d+/g)||[]).slice(0,3);if(nums.length<3)continue;
+  const [b,c,v]=nums.map(x=>String(+x));const words=[];const pages=page?[page]:[];
+  // A folio can break *within* the verse. Record both sides, in source order.
+  for (const pb of el.getElementsByTagName('pb')) {
+    const pid=pb.getAttribute('id')||pb.getAttribute('xml:id')||'';
+    const pm=pid.match(/^S-(\d+)-(\d+)([rv])(?:$|-)/i);
+    if(pm) {const folio=`${+pm[1]}-${+pm[2]}${pm[3].toLowerCase()}`;if(!pages.includes(folio))pages.push(folio);}
+  }
+  const ww=el.getElementsByTagName('w');
+  for(const w of ww){
+   if(w.closest('note,margin'))continue;
+   const app=w.closest('app');
+   if(app){
+     const lem=Array.from(app.children).find(x=>x.localName==='lem');
+     if(lem && !lem.contains(w))continue;
+     if(!lem){const rdgs=Array.from(app.children).filter(x=>x.localName==='rdg');
+       const rdg=w.closest('rdg');if(rdg && rdgs[0]!==rdg)continue;}
+   }
+   const text=w.textContent.replace(/\s+/g,' ').trim();if(text)words.push(text);
+  }
+  if(!words.length)continue;
+  const record={b,c,v,id:vid,w:words,pages};
+  if(!verseByBook.has(b))verseByBook.set(b,[]);verseByBook.get(b).push(record);n++;
+ }
+ if(n<5000)throw Error(`Hanya ${n} unit ayat terbaca; sumber mungkin terpotong. Impor dibatalkan.`);
+ const list=[...verseByBook].sort(([a],[b])=>+a - +b);
+ const entries=list.map(([book,verses])=>({book,label:(names[+book-33]||otNames[book])?{en:(names[+book-33]||otNames[book])[0],id:(names[+book-33]||otNames[book])[1]}:{en:bookTitles.get(book)||`Book ${book}`,id:bookTitles.get(book)||`Kitab ${book}`},chapters:[...new Set(verses.map(x=>+x.c))],count:verses.length,file:`books/b${book}.json`}));
+ const count=list.reduce((sum,[,verses])=>sum+verses.reduce((s,v)=>s+v.w.length,0),0);
+ return {entries,list,stats:{verses:n,tokens:count}};
+}
+async function storeImported(source){
+ stateStatus('Memproses transkripsi…');
+ // On large XML files, parse is CPU/memory intensive; static GitHub Actions remains recommended.
+ await new Promise(resolve=>requestAnimationFrame(resolve));
+ const parsed=parseImportedXML(source);books.clear();
+ manifest={title:'Codex Sinaiticus preserved transcription',sourceUrl:XML_REMOTE,license:'CC BY-NC-SA 3.0',books:parsed.entries,totals:parsed.stats};
+ for(const [id,records] of parsed.list){books.set(id,records);await cachePut(`book-${id}`,records);}
+ await cachePut('manifest',manifest);stateStatus('Seluruh transkripsi terindeks','ready');populateBooks();
+}
+async function importFile(file){try{stateStatus('Membaca berkas lokal…');await storeImported(await file.text());}catch(e){showError(e);}}
+async function importRemote(){try{stateStatus('Mengunduh seluruh XML ±50 MB…');const response=await fetch(XML_REMOTE);if(!response.ok)throw Error(`Server XML: HTTP ${response.status}`);await storeImported(await response.text());}catch(e){showError(e);}}
+function chapterMove(direction){const select=$('chapterSelect');select.selectedIndex+=direction;selectChapter();nextHash();}
+function csvDownload(){if(!currentVerses.length)return;
+ const rows=[['Kitab','Pasal','Ayat','Posisi','Yunani','Transliterasi','Glosa Inggris','Glosa Indonesia','Sumber ayat','Sumber folio']];
+ for(const verse of currentVerses){let n=0;for(const word of verse.w){if(!wordLooksGreek(word))continue;const a=getGloss(word);rows.push([pretty(verse.b),verse.c,verse.v,++n,word,transliterate(word),a?.en||'',a?.id||'',verseUrl(verse),pageUrl(verse.pages?.[0])]);}}
+ const csv='\ufeff'+rows.map(row=>row.map(x=>'"'+String(x??'').replace(/"/g,'""').replace(/^([=+@-])/,'\'$1')+'"').join(',')).join('\r\n');
+ const blob=new Blob([csv],{type:'text/csv;charset=utf-8'});const u=URL.createObjectURL(blob);const a=document.createElement('a');a.href=u;a.download=`sinaiticus-${$('bookSelect').value}-${$('chapterSelect').value}.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);
+}
+async function init(){
+ let savedTheme='light';
+ try {savedTheme=localStorage.getItem('codex-theme')||'light';}catch {}
+ document.documentElement.dataset.theme=savedTheme;
+ $('themeToggle').addEventListener('click',()=>{const theme=document.documentElement.dataset.theme==='light'?'dark':'light';document.documentElement.dataset.theme=theme;try{localStorage.setItem('codex-theme',theme);}catch{}});
+ $('bookSelect').addEventListener('change',()=>{selectBook().then(nextHash);});
+ $('chapterSelect').addEventListener('change',()=>{selectChapter();nextHash();});
+ $('verseSelect').addEventListener('change',()=>{render();nextHash();});
+ $('wordSearch').addEventListener('input',render);
+ $('prevBtn').addEventListener('click',()=>chapterMove(-1));$('nextBtn').addEventListener('click',()=>chapterMove(1));$('csvBtn').addEventListener('click',csvDownload);
+ $('scanBtn').addEventListener('click',()=>loadScan());
+ try{glossary=await getJSON('./data/glossary.json');}catch{glossary=window.__CODEX_EMBEDDED_GLOSSARY__||{};}
+ try{manifest=await getJSON('./data/manifest.json');}catch{manifest=await cacheGet('manifest');}
+ if(!manifest?.books?.length){
+   // Portable HTML: request the actual full official transcription on first use.
+   // Static GitHub Pages always serves optimized book-by-book JSON instead.
+   if(window.matchMedia && window.matchMedia('(max-width: 760px)').matches){showError(new Error('Data lengkap belum diimpor. Gunakan tombol impor XML atau akses situs setelah GitHub Pages melakukan build korpus.'));return;}
+   await importRemote();return;
+ }
+ stateStatus('Korpus dimuat','ready');populateBooks();
+}
+init().catch(showError);
+})();
+
+</script>
+</body>
+</html>
