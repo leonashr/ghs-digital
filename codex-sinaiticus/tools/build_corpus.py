@@ -25,15 +25,17 @@ class Codex(xml.sax.ContentHandler):
             if typ=='book':
                 m=re.search(r'\d+',a.get('n') or a.get('id') or '')
                 self.book=m.group() if m else None
+                if self.book and a.get('title'):self.titles.setdefault(self.book,a.get('title'))
         elif tag=='pb':
-            m=re.match(r'^S-(\d+)-(\d+)([rv])',a.get('id') or a.get('xml:id') or '',re.I)
+            m=re.match(r'^(?:Q|S-)(\d+)-(\d+)([rv])',a.get('id') or a.get('xml:id') or '',re.I)
+            if not m:m=re.match(r'^(\d+)-(\d+)([rv])',a.get('n') or '',re.I)
             if m:
                 self.page=f'{int(m[1])}-{int(m[2])}{m[3].lower()}'
                 if self.current is not None and self.page not in self.current['pages']:
                     self.current['pages'].append(self.page)
         elif tag=='ab':
             vid=a.get('id') or a.get('xml:id') or ''
-            m=re.match(r'^V-(\d+)-(\d+)-(\d+)',vid)
+            m=re.match(r'^V-B(\d+)K(\d+)V(\d+)',vid) or re.match(r'^V-(\d+)-(\d+)-(\d+)',vid)
             self.ab.append(bool(m))
             if m:
                 b,c,v=(str(int(x)) for x in m.groups())
