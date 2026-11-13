@@ -182,7 +182,10 @@ function parseImportedXML(xmlString){
  // Iterate source elements in documentary order; do not infer absent verses.
  const elements=doc.getElementsByTagName('*');
  for(const el of elements){const tag=el.localName;
-  if(tag==='pb'){const id=el.getAttribute('id')||el.getAttribute('xml:id')||'';const m=id.match(/^S-(\d+)-(\d+)([rv])(?:$|-)/i);if(m)page=`${+m[1]}-${+m[2]}${m[3].toLowerCase()}`;}
+  if(tag==='pb'){const id=el.getAttribute('id')||el.getAttribute('xml:id')||'';const m=id.match(/^(?:S-|Q)(\d+)-(\d+)([rv])(?:$|-)/i)|| (el.getAttribute('n')||'').match(/^(\d+)-(\d+)([rv])$/i);if(m)page=`${+m[1]}-${+m[2]}${m[3].toLowerCase()}`;}
+  if(tag==='div' && el.getAttribute('type')==='book' && el.getAttribute('title')){
+    const num=(el.getAttribute('n')||'').match(/\d+/)?.[0];if(num)bookTitles.set(String(+num),el.getAttribute('title'));
+  }
   if(tag==='note' && el.getAttribute('type')==='booktitle') {
     const bookDiv=el.closest('div[type=book]');
     const num=(bookDiv?.getAttribute('n')||bookDiv?.getAttribute('id')||'').match(/\d+/)?.[0];
@@ -196,7 +199,7 @@ function parseImportedXML(xmlString){
   // A folio can break *within* the verse. Record both sides, in source order.
   for (const pb of el.getElementsByTagName('pb')) {
     const pid=pb.getAttribute('id')||pb.getAttribute('xml:id')||'';
-    const pm=pid.match(/^S-(\d+)-(\d+)([rv])(?:$|-)/i);
+    const pm=pid.match(/^(?:S-|Q)(\d+)-(\d+)([rv])(?:$|-)/i)||(pb.getAttribute('n')||'').match(/^(\d+)-(\d+)([rv])$/i);
     if(pm) {const folio=`${+pm[1]}-${+pm[2]}${pm[3].toLowerCase()}`;if(!pages.includes(folio))pages.push(folio);}
   }
   const ww=el.getElementsByTagName('w');
